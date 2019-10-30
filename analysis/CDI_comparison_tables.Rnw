@@ -3,6 +3,7 @@
 % \usepackage{fullpage}
 \usepackage[latin1]{inputenc}
 \usepackage{booktabs}
+\usepackage[textfont=it]{caption}
 %\usepackage[toc, page]{appendix}
 
 \usepackage{graphicx}
@@ -21,7 +22,7 @@
 
 \usepackage{lineno}
 
-\title{Koala Project: Vocabulary checklist comparisons}
+\title{NZ CDI:WS and OZI Vocabulary Comparisons for KOALA Project}
 
 \author{Thomas Klee}
 
@@ -33,141 +34,1695 @@
 
 \linenumbers
 
+\setlength\LTleft{-2cm} % to move tables to the left since they weren't centered
 
-\begin{longtable}{rclccl}
+\begin{longtable}{rllccl}
+\caption[]{Full set of words (with section) occurring on OZI and NZ CDI:WS, indicating which CDI they occur on}\\
+\toprule
+ & Word & CDI & Section & CDI & Section \\ 
+\midrule
+\endhead
+1 & (air)plane &  &  & AusEng & vehicles \\ 
+  2 & (pussy)cat &  &  & AusEng & animals \\ 
+  3 & (tomato) sauce &  &  & AusEng & food\_drink \\ 
+  4 & a & NZEng & quantifiers\_articles &  &  \\ 
+  5 & a\_lot & NZEng & quantifiers\_articles &  &  \\ 
+  6 & about & NZEng & prepositions\_locations &  &  \\ 
+  7 & above & NZEng & prepositions\_locations &  &  \\ 
+  8 & aeroplane & NZEng & vehicles &  &  \\ 
+  9 & after & NZEng & time\_words &  &  \\ 
+  10 & all & NZEng & quantifiers\_articles &  &  \\ 
+  11 & all gone &  &  & AusEng & descriptive\_words \\ 
+  12 & allgone & NZEng & descriptive\_words &  &  \\ 
+  13 & alligator & NZEng & animals &  &  \\ 
+  14 & am & NZEng & helping verbs &  &  \\ 
+  15 & an & NZEng & quantifiers\_articles &  &  \\ 
+  16 & and & NZEng & connecting\_words &  &  \\ 
+  17 & animal & NZEng & animals & AusEng & animals \\ 
+  18 & ankle & NZEng & body\_parts & AusEng & body\_parts \\ 
+  19 & another & NZEng & quantifiers\_articles &  &  \\ 
+  20 & ant & NZEng & animals & AusEng & animals \\ 
+  21 & any & NZEng & quantifiers\_articles &  &  \\ 
+  22 & apple & NZEng & food\_drink & AusEng & food\_drink \\ 
+  23 & are & NZEng & helping verbs &  &  \\ 
+  24 & arm & NZEng & body\_parts & AusEng & body\_parts \\ 
+  25 & around & NZEng & prepositions\_locations &  &  \\ 
+  26 & asleep & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  27 & at & NZEng & prepositions\_locations &  &  \\ 
+  28 & aunt &  &  & AusEng & people \\ 
+  29 & aunt\_auntie & NZEng & people &  &  \\ 
+  30 & awake & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  31 & away & NZEng & prepositions\_locations &  &  \\ 
+  32 & baa baa &  &  & AusEng & sounds \\ 
+  33 & baa\_baa & NZEng & sound\_effects &  &  \\ 
+  34 & baby & NZEng & people & AusEng & people \\ 
+  35 & babysitter & NZEng & people & AusEng & people \\ 
+  36 & babysitter\_name & NZEng & people &  &  \\ 
+  37 & back & NZEng & prepositions\_locations &  &  \\ 
+  38 & backyard & NZEng & outside\_things & AusEng & outside \\ 
+  39 & bad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  40 & ball & NZEng & toys & AusEng & toys \\ 
+  41 & balloon & NZEng & toys & AusEng & toys \\ 
+  42 & banana & NZEng & food\_drink & AusEng & food\_drink \\ 
+  43 & barbecue &  &  & AusEng & places \\ 
+  44 & basket & NZEng & household\_items & AusEng & household \\ 
+  45 & bat & NZEng & toys & AusEng & toys \\ 
+  46 & bath & NZEng & furniture\_rooms & AusEng & games\_routines \\ 
+  47 & bath & NZEng & games\_routines & AusEng & games\_routines \\ 
+  48 & bath (tub) &  &  & AusEng & furniture\_rooms \\ 
+  49 & bathroom & NZEng & furniture\_rooms &  &  \\ 
+  50 & bathroom &  &  & AusEng & furniture\_rooms \\ 
+  51 & be & NZEng & helping verbs &  &  \\ 
+  52 & beach & NZEng & places\_to\_go & AusEng & places \\ 
+  53 & bead & NZEng & clothing &  &  \\ 
+  54 & beanie &  &  & AusEng & clothing \\ 
+  55 & beans & NZEng & food\_drink & AusEng & food\_drink \\ 
+  56 & bear & NZEng & animals & AusEng & animals \\ 
+  57 & because & NZEng & connecting\_words &  &  \\ 
+  58 & bed & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  59 & bedroom & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  60 & bee & NZEng & animals & AusEng & animals \\ 
+  61 & before & NZEng & time\_words &  &  \\ 
+  62 & behind & NZEng & prepositions\_locations &  &  \\ 
+  63 & bellybutton & NZEng & body\_parts &  &  \\ 
+  64 & bellybutton/navel &  &  & AusEng & body\_parts \\ 
+  65 & belt & NZEng & clothing & AusEng & clothing \\ 
+  66 & bench & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  67 & beside & NZEng & prepositions\_locations &  &  \\ 
+  68 & better & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  69 & bib & NZEng & clothing & AusEng & clothing \\ 
+  70 & bicycle/bike &  &  & AusEng & vehicles \\ 
+  71 & big & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  72 & bike & NZEng & vehicles &  &  \\ 
+  73 & bin &  &  & AusEng & household \\ 
+  74 & bird & NZEng & animals & AusEng & animals \\ 
+  75 & biscuit & NZEng & food\_drink &  &  \\ 
+  76 & biscuit/bickie &  &  & AusEng & food\_drink \\ 
+  77 & bite & NZEng & action\_words & AusEng & action\_words \\ 
+  78 & black & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  79 & blanket & NZEng & household\_items & AusEng & household \\ 
+  80 & block & NZEng & toys &  &  \\ 
+  81 & block/brick &  &  & AusEng & toys \\ 
+  82 & blow & NZEng & action\_words & AusEng & action\_words \\ 
+  83 & blue & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  84 & boat & NZEng & vehicles & AusEng & vehicles \\ 
+  85 & book & NZEng & toys & AusEng & toys \\ 
+  86 & boot(s) &  &  & AusEng & clothing \\ 
+  87 & boots & NZEng & clothing &  &  \\ 
+  88 & bottle & NZEng & household\_items & AusEng & household \\ 
+  89 & bottom &  &  & AusEng & body\_parts \\ 
+  90 & bowl & NZEng & household\_items & AusEng & household \\ 
+  91 & box & NZEng & household\_items & AusEng & household \\ 
+  92 & boy & NZEng & people & AusEng & people \\ 
+  93 & bread & NZEng & food\_drink & AusEng & food\_drink \\ 
+  94 & break & NZEng & action\_words & AusEng & action\_words \\ 
+  95 & breakfast & NZEng & games\_routines & AusEng & games\_routines \\ 
+  96 & breasts &  &  & AusEng & body\_parts \\ 
+  97 & bring & NZEng & action\_words & AusEng & action\_words \\ 
+  98 & broken & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  99 & broom & NZEng & household\_items & AusEng & household \\ 
+  100 & brother & NZEng & people & AusEng & people \\ 
+  101 & brown & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  102 & brush & NZEng & household\_items & AusEng & household \\ 
+  103 & bubbles & NZEng & toys & AusEng & toys \\ 
+  104 & bucket & NZEng & household\_items & AusEng & household \\ 
+  105 & bug &  &  & AusEng & animals \\ 
+  106 & build & NZEng & action\_words & AusEng & action\_words \\ 
+  107 & bump & NZEng & action\_words & AusEng & action\_words \\ 
+  108 & bunny & NZEng & animals &  &  \\ 
+  109 & bunny/rabbit &  &  & AusEng & animals \\ 
+  110 & bus & NZEng & vehicles & AusEng & vehicles \\ 
+  111 & bush &  &  & AusEng & places \\ 
+  112 & but & NZEng & connecting\_words &  &  \\ 
+  113 & butter & NZEng & food\_drink & AusEng & food\_drink \\ 
+  114 & butterfly & NZEng & animals & AusEng & animals \\ 
+  115 & buttocks\_bottom\_bum & NZEng & body\_parts &  &  \\ 
+  116 & button & NZEng & clothing & AusEng & clothing \\ 
+  117 & buy & NZEng & action\_words & AusEng & action\_words \\ 
+  118 & by & NZEng & prepositions\_locations &  &  \\ 
+  119 & bye & NZEng & games\_routines &  &  \\ 
+  120 & cake & NZEng & food\_drink & AusEng & food\_drink \\ 
+  121 & call &  &  & AusEng & action\_words \\ 
+  122 & call\_on\_the\_phone & NZEng & games\_routines &  &  \\ 
+  123 & call(phone) &  &  & AusEng & games\_routines \\ 
+  124 & camera & NZEng & household\_items & AusEng & household \\ 
+  125 & camping & NZEng & places\_to\_go &  &  \\ 
+  126 & can & NZEng & helping verbs & AusEng & household \\ 
+  127 & car & NZEng & vehicles & AusEng & vehicles \\ 
+  128 & careful & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  129 & carrot &  &  & AusEng & food\_drink \\ 
+  130 & carrots & NZEng & food\_drink &  &  \\ 
+  131 & carry & NZEng & action\_words & AusEng & action\_words \\ 
+  132 & cat & NZEng & animals &  &  \\ 
+  133 & catch & NZEng & action\_words & AusEng & action\_words \\ 
+  134 & cellar & NZEng & furniture\_rooms &  &  \\ 
+  135 & cereal & NZEng & food\_drink & AusEng & food\_drink \\ 
+  136 & chair & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  137 & chalk & NZEng & toys &  &  \\ 
+  138 & chase & NZEng & action\_words & AusEng & action\_words \\ 
+  139 & cheek & NZEng & body\_parts & AusEng & body\_parts \\ 
+  140 & cheerios & NZEng & food\_drink &  &  \\ 
+  141 & cheese & NZEng & food\_drink & AusEng & food\_drink \\ 
+  142 & chewing gum/chewie &  &  & AusEng & food\_drink \\ 
+  143 & chewing\_gum & NZEng & food\_drink &  &  \\ 
+  144 & chicken & NZEng & animals & AusEng & food\_drink \\ 
+  145 & chicken & NZEng & food\_drink & AusEng & food\_drink \\ 
+  146 & child & NZEng & people &  &  \\ 
+  147 & child\_own\_name & NZEng & people &  &  \\ 
+  148 & child's own name &  &  & AusEng & people \\ 
+  149 & child/kid &  &  & AusEng & people \\ 
+  150 & chin & NZEng & body\_parts & AusEng & body\_parts \\ 
+  151 & chip & NZEng & food\_drink &  &  \\ 
+  152 & chocolate & NZEng & food\_drink & AusEng & food\_drink \\ 
+  153 & choo choo &  &  & AusEng & sounds \\ 
+  154 & choo\_choo & NZEng & sound\_effects &  &  \\ 
+  155 & church & NZEng & places\_to\_go &  &  \\ 
+  156 & church/mosque &  &  & AusEng & places \\ 
+  157 & circus & NZEng & places\_to\_go &  &  \\ 
+  158 & city &  &  & AusEng & places \\ 
+  159 & clap & NZEng & action\_words & AusEng & action\_words \\ 
+  160 & clean & NZEng & action\_words & AusEng & action\_words \\ 
+  161 & clean & NZEng & action\_words & AusEng & descriptive\_words \\ 
+  162 & clean & NZEng & descriptive\_words & AusEng & action\_words \\ 
+  163 & clean & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  164 & climb & NZEng & action\_words & AusEng & action\_words \\ 
+  165 & clock & NZEng & household\_items & AusEng & household \\ 
+  166 & close & NZEng & action\_words & AusEng & action\_words \\ 
+  167 & cloud & NZEng & outside\_things & AusEng & outside \\ 
+  168 & clown & NZEng & people & AusEng & people \\ 
+  169 & coat & NZEng & clothing & AusEng & clothing \\ 
+  170 & cockadoodledoo & NZEng & sound\_effects & AusEng & sounds \\ 
+  171 & cockroach &  &  & AusEng & animals \\ 
+  172 & coffee & NZEng & food\_drink & AusEng & food\_drink \\ 
+  173 & coin & NZEng & household\_items &  &  \\ 
+  174 & coke & NZEng & food\_drink & AusEng & food\_drink \\ 
+  175 & cold & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  176 & comb & NZEng & household\_items & AusEng & household \\ 
+  177 & computer &  &  & AusEng & furniture\_rooms \\ 
+  178 & cook & NZEng & action\_words & AusEng & action\_words \\ 
+  179 & cordial &  &  & AusEng & food\_drink \\ 
+  180 & corn & NZEng & food\_drink & AusEng & food\_drink \\ 
+  181 & cot & NZEng & furniture\_rooms & AusEng & household \\ 
+  182 & couch & NZEng & furniture\_rooms &  &  \\ 
+  183 & couch/lounge/sofa &  &  & AusEng & furniture\_rooms \\ 
+  184 & could & NZEng & helping verbs &  &  \\ 
+  185 & country & NZEng & places\_to\_go & AusEng & places \\ 
+  186 & cover & NZEng & action\_words & AusEng & action\_words \\ 
+  187 & cow & NZEng & animals & AusEng & animals \\ 
+  188 & cowboy & NZEng & people & AusEng & people \\ 
+  189 & cracker & NZEng & food\_drink &  &  \\ 
+  190 & crayon & NZEng & toys & AusEng & toys \\ 
+  191 & crib &  &  & AusEng & furniture\_rooms \\ 
+  192 & crocodile &  &  & AusEng & animals \\ 
+  193 & cry & NZEng & action\_words & AusEng & action\_words \\ 
+  194 & cuddle &  &  & AusEng & action\_words \\ 
+  195 & cup & NZEng & household\_items & AusEng & household \\ 
+  196 & custard &  &  & AusEng & food\_drink \\ 
+  197 & cut & NZEng & action\_words & AusEng & action\_words \\ 
+  198 & cute & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  199 & daddy & NZEng & people & AusEng & people \\ 
+  200 & dance & NZEng & action\_words & AusEng & action\_words \\ 
+  201 & dark & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  202 & day & NZEng & time\_words &  &  \\ 
+  203 & deer & NZEng & animals & AusEng & animals \\ 
+  204 & did\_didya & NZEng & helping verbs &  &  \\ 
+  205 & dinner &  &  & AusEng & games\_routines \\ 
+  206 & dinner\_tea & NZEng & games\_routines &  &  \\ 
+  207 & dirty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  208 & dish & NZEng & household\_items & AusEng & household \\ 
+  209 & do & NZEng & helping verbs &  &  \\ 
+  210 & doctor & NZEng & people & AusEng & people \\ 
+  211 & does & NZEng & helping verbs &  &  \\ 
+  212 & dog & NZEng & animals & AusEng & animals \\ 
+  213 & doll & NZEng & toys & AusEng & toys \\ 
+  214 & donkey & NZEng & animals & AusEng & animals \\ 
+  215 & dont & NZEng & helping verbs &  &  \\ 
+  216 & door & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  217 & doughnut & NZEng & food\_drink & AusEng & food\_drink \\ 
+  218 & down & NZEng & prepositions\_locations &  &  \\ 
+  219 & downtown & NZEng & places\_to\_go &  &  \\ 
+  220 & draw & NZEng & action\_words & AusEng & action\_words \\ 
+  221 & drawer & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  222 & dress & NZEng & clothing & AusEng & clothing \\ 
+  223 & drink & NZEng & food\_drink & AusEng & food\_drink \\ 
+  224 & drink & NZEng & food\_drink & AusEng & action\_words \\ 
+  225 & drink & NZEng & action\_words & AusEng & food\_drink \\ 
+  226 & drink & NZEng & action\_words & AusEng & action\_words \\ 
+  227 & drive & NZEng & action\_words & AusEng & action\_words \\ 
+  228 & drop & NZEng & action\_words & AusEng & action\_words \\ 
+  229 & dry & NZEng & action\_words & AusEng & action\_words \\ 
+  230 & dry & NZEng & action\_words & AusEng & descriptive\_words \\ 
+  231 & dry & NZEng & descriptive\_words & AusEng & action\_words \\ 
+  232 & dry & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  233 & dryer & NZEng & furniture\_rooms &  &  \\ 
+  234 & duck & NZEng & animals & AusEng & animals \\ 
+  235 & dump & NZEng & action\_words & AusEng & action\_words \\ 
+  236 & each & NZEng & quantifiers\_articles &  &  \\ 
+  237 & ear & NZEng & body\_parts & AusEng & body\_parts \\ 
+  238 & easy &  &  & AusEng & descriptive\_words \\ 
+  239 & eat & NZEng & action\_words & AusEng & action\_words \\ 
+  240 & egg & NZEng & food\_drink & AusEng & food\_drink \\ 
+  241 & elephant & NZEng & animals & AusEng & animals \\ 
+  242 & empty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  243 & every & NZEng & quantifiers\_articles &  &  \\ 
+  244 & eye & NZEng & body\_parts & AusEng & body\_parts \\ 
+  245 & face & NZEng & body\_parts & AusEng & body\_parts \\ 
+  246 & fall & NZEng & action\_words & AusEng & action\_words \\ 
+  247 & farm & NZEng & places\_to\_go & AusEng & places \\ 
+  248 & fast & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  249 & feed & NZEng & action\_words & AusEng & action\_words \\ 
+  250 & feet & NZEng & body\_parts &  &  \\ 
+  251 & find & NZEng & action\_words & AusEng & action\_words \\ 
+  252 & fine & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  253 & finger & NZEng & body\_parts &  &  \\ 
+  254 & finger(s) &  &  & AusEng & body\_parts \\ 
+  255 & finish & NZEng & action\_words & AusEng & action\_words \\ 
+  256 & fire truck/engine &  &  & AusEng & vehicles \\ 
+  257 & fire\_engine & NZEng & vehicles &  &  \\ 
+  258 & fireman & NZEng & people & AusEng & people \\ 
+  259 & first & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  260 & fish & NZEng & animals & AusEng & animals \\ 
+  261 & fish & NZEng & animals & AusEng & food\_drink \\ 
+  262 & fish & NZEng & food\_drink & AusEng & animals \\ 
+  263 & fish & NZEng & food\_drink & AusEng & food\_drink \\ 
+  264 & fit & NZEng & action\_words & AusEng & action\_words \\ 
+  265 & fix & NZEng & action\_words & AusEng & action\_words \\ 
+  266 & fizzy\_drink & NZEng & food\_drink &  &  \\ 
+  267 & flag & NZEng & outside\_things & AusEng & outside \\ 
+  268 & flower & NZEng & outside\_things & AusEng & outside \\ 
+  269 & food & NZEng & food\_drink & AusEng & food\_drink \\ 
+  270 & foot/feet &  &  & AusEng & body\_parts \\ 
+  271 & footpath & NZEng & outside\_things & AusEng & outside \\ 
+  272 & for & NZEng & prepositions\_locations &  &  \\ 
+  273 & forest & NZEng & places\_to\_go &  &  \\ 
+  274 & fork & NZEng & household\_items & AusEng & household \\ 
+  275 & fridge & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  276 & friend & NZEng & people & AusEng & people \\ 
+  277 & friend's name &  &  & AusEng & people \\ 
+  278 & frog & NZEng & animals & AusEng & animals \\ 
+  279 & full & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  280 & game & NZEng & toys & AusEng & toys \\ 
+  281 & garage & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  282 & garbage/rubbish &  &  & AusEng & household \\ 
+  283 & garden & NZEng & outside\_things & AusEng & outside \\ 
+  284 & gentle & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  285 & get & NZEng & action\_words & AusEng & action\_words \\ 
+  286 & gherkin & NZEng & food\_drink &  &  \\ 
+  287 & giraffe & NZEng & animals & AusEng & animals \\ 
+  288 & girl & NZEng & people & AusEng & people \\ 
+  289 & give & NZEng & action\_words & AusEng & action\_words \\ 
+  290 & give me five! &  &  & AusEng & games\_routines \\ 
+  291 & givemefive & NZEng & games\_routines &  &  \\ 
+  292 & glass & NZEng & household\_items & AusEng & household \\ 
+  293 & glasses & NZEng & household\_items &  &  \\ 
+  294 & gloves & NZEng & clothing &  &  \\ 
+  295 & glue & NZEng & toys & AusEng & toys \\ 
+  296 & go & NZEng & action\_words & AusEng & action\_words \\ 
+  297 & go potty &  &  & AusEng & games\_routines \\ 
+  298 & go\_potty & NZEng & games\_routines &  &  \\ 
+  299 & gonna\_get\_you & NZEng & games\_routines &  &  \\ 
+  300 & gonna\_going\_to & NZEng & helping verbs &  &  \\ 
+  301 & good & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  302 & goodbye/bye bye &  &  & AusEng & games\_routines \\ 
+  303 & goose & NZEng & animals & AusEng & animals \\ 
+  304 & gotta\_got\_to & NZEng & helping verbs &  &  \\ 
+  305 & grandma & NZEng & people &  &  \\ 
+  306 & grandma/nanna &  &  & AusEng & people \\ 
+  307 & grandpa & NZEng & people &  &  \\ 
+  308 & grandpa/pop &  &  & AusEng & people \\ 
+  309 & grapes & NZEng & food\_drink & AusEng & food\_drink \\ 
+  310 & grass & NZEng & outside\_things & AusEng & outside \\ 
+  311 & green & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  312 & green\_beans & NZEng & food\_drink &  &  \\ 
+  313 & grr & NZEng & sound\_effects & AusEng & sounds \\ 
+  314 & hafta\_have\_to & NZEng & helping verbs &  &  \\ 
+  315 & hair & NZEng & body\_parts & AusEng & body\_parts \\ 
+  316 & hamburger & NZEng & food\_drink & AusEng & food\_drink \\ 
+  317 & hammer & NZEng & household\_items & AusEng & household \\ 
+  318 & hand & NZEng & body\_parts & AusEng & body\_parts \\ 
+  319 & happy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  320 & hard & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  321 & hat & NZEng & clothing & AusEng & clothing \\ 
+  322 & hate & NZEng & action\_words & AusEng & action\_words \\ 
+  323 & have & NZEng & action\_words & AusEng & action\_words \\ 
+  324 & he & NZEng & pronouns &  &  \\ 
+  325 & head & NZEng & body\_parts & AusEng & body\_parts \\ 
+  326 & hear & NZEng & action\_words & AusEng & action\_words \\ 
+  327 & heavy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  328 & helicopter & NZEng & vehicles & AusEng & vehicles \\ 
+  329 & hello & NZEng & games\_routines & AusEng & games\_routines \\ 
+  330 & help & NZEng & action\_words & AusEng & action\_words \\ 
+  331 & hen & NZEng & animals &  &  \\ 
+  332 & her & NZEng & pronouns &  &  \\ 
+  333 & here & NZEng & prepositions\_locations &  &  \\ 
+  334 & hers & NZEng & pronouns &  &  \\ 
+  335 & hi & NZEng & games\_routines & AusEng & games\_routines \\ 
+  336 & hide & NZEng & action\_words & AusEng & action\_words \\ 
+  337 & hide and seek/hidie &  &  & AusEng & games\_routines \\ 
+  338 & high & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  339 & high chair &  &  & AusEng & furniture\_rooms \\ 
+  340 & high\_chair & NZEng & furniture\_rooms &  &  \\ 
+  341 & him & NZEng & pronouns &  &  \\ 
+  342 & his & NZEng & pronouns &  &  \\ 
+  343 & hit & NZEng & action\_words & AusEng & action\_words \\ 
+  344 & hold & NZEng & action\_words & AusEng & action\_words \\ 
+  345 & home & NZEng & places\_to\_go &  &  \\ 
+  346 & home/house &  &  & AusEng & places \\ 
+  347 & horse & NZEng & animals & AusEng & animals \\ 
+  348 & hose & NZEng & outside\_things & AusEng & outside \\ 
+  349 & hot & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  350 & house & NZEng & places\_to\_go &  &  \\ 
+  351 & how & NZEng & question\_words &  &  \\ 
+  352 & hug & NZEng & action\_words & AusEng & action\_words \\ 
+  353 & hungry & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  354 & hurry & NZEng & action\_words & AusEng & action\_words \\ 
+  355 & hurt & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  356 & i & NZEng & pronouns &  &  \\ 
+  357 & ice & NZEng & food\_drink & AusEng & food\_drink \\ 
+  358 & ice cream &  &  & AusEng & food\_drink \\ 
+  359 & ice\_block & NZEng & food\_drink &  &  \\ 
+  360 & ice\_cream & NZEng & food\_drink &  &  \\ 
+  361 & if & NZEng & connecting\_words &  &  \\ 
+  362 & insect & NZEng & animals &  &  \\ 
+  363 & inside\_in & NZEng & prepositions\_locations &  &  \\ 
+  364 & into & NZEng & prepositions\_locations &  &  \\ 
+  365 & is & NZEng & helping verbs &  &  \\ 
+  366 & it & NZEng & pronouns &  &  \\ 
+  367 & jacket & NZEng & clothing & AusEng & clothing \\ 
+  368 & jam & NZEng & food\_drink & AusEng & food\_drink \\ 
+  369 & jar & NZEng & household\_items & AusEng & household \\ 
+  370 & jeans & NZEng & clothing & AusEng & clothing \\ 
+  371 & jelly & NZEng & food\_drink & AusEng & food\_drink \\ 
+  372 & jersey & NZEng & clothing &  &  \\ 
+  373 & juice & NZEng & food\_drink & AusEng & food\_drink \\ 
+  374 & jump & NZEng & action\_words & AusEng & action\_words \\ 
+  375 & jumper &  &  & AusEng & clothing \\ 
+  376 & kangaroo/roo &  &  & AusEng & animals \\ 
+  377 & keys & NZEng & household\_items & AusEng & household \\ 
+  378 & kick & NZEng & action\_words & AusEng & action\_words \\ 
+  379 & kiss & NZEng & action\_words & AusEng & action\_words \\ 
+  380 & kitchen & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  381 & knee & NZEng & body\_parts & AusEng & body\_parts \\ 
+  382 & knife & NZEng & household\_items & AusEng & household \\ 
+  383 & knock & NZEng & action\_words & AusEng & action\_words \\ 
+  384 & know &  &  & AusEng & action\_words \\ 
+  385 & koala &  &  & AusEng & animals \\ 
+  386 & ladder & NZEng & outside\_things & AusEng & outside \\ 
+  387 & lady & NZEng & people & AusEng & people \\ 
+  388 & lamb & NZEng & animals & AusEng & animals \\ 
+  389 & lamp & NZEng & household\_items & AusEng & household \\ 
+  390 & last & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  391 & later & NZEng & time\_words &  &  \\ 
+  392 & lawn mower &  &  & AusEng & outside \\ 
+  393 & lawn\_mower & NZEng & outside\_things &  &  \\ 
+  394 & leg & NZEng & body\_parts & AusEng & body\_parts \\ 
+  395 & lemme\_let\_me & NZEng & helping verbs &  &  \\ 
+  396 & lick & NZEng & action\_words & AusEng & action\_words \\ 
+  397 & light & NZEng & household\_items & AusEng & household \\ 
+  398 & like & NZEng & action\_words & AusEng & action\_words \\ 
+  399 & lion & NZEng & animals & AusEng & animals \\ 
+  400 & lips & NZEng & body\_parts & AusEng & body\_parts \\ 
+  401 & listen & NZEng & action\_words & AusEng & action\_words \\ 
+  402 & little & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  403 & living\_room & NZEng & furniture\_rooms &  &  \\ 
+  404 & living/lounge room &  &  & AusEng & furniture\_rooms \\ 
+  405 & lollies & NZEng & food\_drink &  &  \\ 
+  406 & lollipop & NZEng & food\_drink &  &  \\ 
+  407 & lolly &  &  & AusEng & food\_drink \\ 
+  408 & long & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  409 & look & NZEng & action\_words & AusEng & action\_words \\ 
+  410 & loud & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  411 & love & NZEng & action\_words & AusEng & action\_words \\ 
+  412 & lunch & NZEng & games\_routines & AusEng & games\_routines \\ 
+  413 & mad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  414 & mailman & NZEng & people &  &  \\ 
+  415 & make & NZEng & action\_words & AusEng & action\_words \\ 
+  416 & man & NZEng & people & AusEng & people \\ 
+  417 & mango &  &  & AusEng & food\_drink \\ 
+  418 & me & NZEng & pronouns &  &  \\ 
+  419 & meat & NZEng & food\_drink & AusEng & food\_drink \\ 
+  420 & medicine & NZEng & household\_items & AusEng & household \\ 
+  421 & melon & NZEng & food\_drink &  &  \\ 
+  422 & meow & NZEng & sound\_effects & AusEng & sounds \\ 
+  423 & milk & NZEng & food\_drink & AusEng & food\_drink \\ 
+  424 & mine & NZEng & pronouns &  &  \\ 
+  425 & money & NZEng & household\_items & AusEng & household \\ 
+  426 & monkey & NZEng & animals & AusEng & animals \\ 
+  427 & moo & NZEng & sound\_effects & AusEng & sounds \\ 
+  428 & moon & NZEng & outside\_things & AusEng & outside \\ 
+  429 & moose & NZEng & animals &  &  \\ 
+  430 & mop & NZEng & household\_items & AusEng & household \\ 
+  431 & more & NZEng & quantifiers\_articles &  &  \\ 
+  432 & morning & NZEng & time\_words &  &  \\ 
+  433 & motorbike & NZEng & vehicles & AusEng & vehicles \\ 
+  434 & mouse & NZEng & animals & AusEng & animals \\ 
+  435 & mouth & NZEng & body\_parts & AusEng & body\_parts \\ 
+  436 & movie & NZEng & places\_to\_go &  &  \\ 
+  437 & movies &  &  & AusEng & places \\ 
+  438 & much & NZEng & quantifiers\_articles &  &  \\ 
+  439 & muffin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  440 & mug &  &  & AusEng & household \\ 
+  441 & mummy & NZEng & people & AusEng & people \\ 
+  442 & my & NZEng & pronouns &  &  \\ 
+  443 & myself & NZEng & pronouns &  &  \\ 
+  444 & nail & NZEng & household\_items &  &  \\ 
+  445 & nail(s) &  &  & AusEng & body\_parts \\ 
+  446 & nap & NZEng & games\_routines & AusEng & games\_routines \\ 
+  447 & nappy & NZEng & clothing & AusEng & clothing \\ 
+  448 & nasty &  &  & AusEng & descriptive\_words \\ 
+  449 & naughty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  450 & neck &  &  & AusEng & body\_parts \\ 
+  451 & necklace & NZEng & clothing & AusEng & clothing \\ 
+  452 & need\_need\_to & NZEng & helping verbs &  &  \\ 
+  453 & new & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  454 & newspaper/paper &  &  & AusEng & household \\ 
+  455 & next\_to & NZEng & prepositions\_locations &  &  \\ 
+  456 & nice & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  457 & night & NZEng & time\_words &  &  \\ 
+  458 & night night &  &  & AusEng & games\_routines \\ 
+  459 & nightnight & NZEng & games\_routines &  &  \\ 
+  460 & no & NZEng & games\_routines &  &  \\ 
+  461 & no/don't &  &  & AusEng & games\_routines \\ 
+  462 & noisy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  463 & none & NZEng & quantifiers\_articles &  &  \\ 
+  464 & noodles & NZEng & food\_drink & AusEng & food\_drink \\ 
+  465 & nose & NZEng & body\_parts & AusEng & body\_parts \\ 
+  466 & not & NZEng & quantifiers\_articles &  &  \\ 
+  467 & now & NZEng & time\_words &  &  \\ 
+  468 & nurse & NZEng & people & AusEng & people \\ 
+  469 & nuts & NZEng & food\_drink & AusEng & food\_drink \\ 
+  470 & of & NZEng & prepositions\_locations &  &  \\ 
+  471 & off & NZEng & prepositions\_locations &  &  \\ 
+  472 & old & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  473 & on & NZEng & prepositions\_locations &  &  \\ 
+  474 & on\_top\_of & NZEng & prepositions\_locations &  &  \\ 
+  475 & open & NZEng & action\_words & AusEng & action\_words \\ 
+  476 & orange & NZEng & food\_drink & AusEng & food\_drink \\ 
+  477 & orange & NZEng & food\_drink & AusEng & descriptive\_words \\ 
+  478 & orange & NZEng & descriptive\_words & AusEng & food\_drink \\ 
+  479 & orange & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  480 & other & NZEng & quantifiers\_articles &  &  \\ 
+  481 & ouch & NZEng & sound\_effects & AusEng & sounds \\ 
+  482 & our & NZEng & pronouns &  &  \\ 
+  483 & out & NZEng & prepositions\_locations &  &  \\ 
+  484 & outside & NZEng & places\_to\_go & AusEng & places \\ 
+  485 & oven & NZEng & furniture\_rooms &  &  \\ 
+  486 & oven/stove &  &  & AusEng & furniture\_rooms \\ 
+  487 & over & NZEng & prepositions\_locations &  &  \\ 
+  488 & owl & NZEng & animals & AusEng & animals \\ 
+  489 & paint & NZEng & action\_words & AusEng & action\_words \\ 
+  490 & pancake & NZEng & food\_drink & AusEng & food\_drink \\ 
+  491 & pants &  &  & AusEng & clothing \\ 
+  492 & paper & NZEng & household\_items &  &  \\ 
+  493 & park & NZEng & places\_to\_go & AusEng & places \\ 
+  494 & party & NZEng & places\_to\_go & AusEng & places \\ 
+  495 & pasta &  &  & AusEng & food\_drink \\ 
+  496 & patty cake/pat-a-cake &  &  & AusEng & games\_routines \\ 
+  497 & pattycake & NZEng & games\_routines &  &  \\ 
+  498 & peanut butter &  &  & AusEng & food\_drink \\ 
+  499 & peanut\_butter & NZEng & food\_drink &  &  \\ 
+  500 & peas & NZEng & food\_drink & AusEng & food\_drink \\ 
+  501 & peekaboo & NZEng & games\_routines & AusEng & games\_routines \\ 
+  502 & pen & NZEng & toys & AusEng & toys \\ 
+  503 & pencil & NZEng & toys &  &  \\ 
+  504 & penguin & NZEng & animals & AusEng & animals \\ 
+  505 & penis & NZEng & body\_parts &  &  \\ 
+  506 & people & NZEng & people & AusEng & people \\ 
+  507 & person & NZEng & people & AusEng & people \\ 
+  508 & pet\_name & NZEng & people &  &  \\ 
+  509 & pet's name &  &  & AusEng & people \\ 
+  510 & petrol station &  &  & AusEng & places \\ 
+  511 & petrol\_station & NZEng & places\_to\_go &  &  \\ 
+  512 & photo &  &  & AusEng & household \\ 
+  513 & pick & NZEng & action\_words & AusEng & action\_words \\ 
+  514 & picnic & NZEng & places\_to\_go & AusEng & places \\ 
+  515 & picture & NZEng & household\_items & AusEng & household \\ 
+  516 & pig & NZEng & animals & AusEng & animals \\ 
+  517 & pillow & NZEng & household\_items & AusEng & household \\ 
+  518 & pineapple &  &  & AusEng & food\_drink \\ 
+  519 & pizza & NZEng & food\_drink & AusEng & food\_drink \\ 
+  520 & plant & NZEng & household\_items & AusEng & household \\ 
+  521 & plate & NZEng & household\_items & AusEng & household \\ 
+  522 & play & NZEng & action\_words & AusEng & action\_words \\ 
+  523 & play dough &  &  & AusEng & toys \\ 
+  524 & play pen &  &  & AusEng & furniture\_rooms \\ 
+  525 & playdough & NZEng & toys &  &  \\ 
+  526 & playground & NZEng & places\_to\_go & AusEng & places \\ 
+  527 & playpen & NZEng & furniture\_rooms &  &  \\ 
+  528 & please & NZEng & games\_routines & AusEng & games\_routines \\ 
+  529 & police & NZEng & people &  &  \\ 
+  530 & police(man) &  &  & AusEng & people \\ 
+  531 & pony & NZEng & animals & AusEng & animals \\ 
+  532 & pool & NZEng & outside\_things & AusEng & outside \\ 
+  533 & poor & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  534 & popcorn & NZEng & food\_drink & AusEng & food\_drink \\ 
+  535 & porch & NZEng & furniture\_rooms &  &  \\ 
+  536 & possum & NZEng & animals & AusEng & animals \\ 
+  537 & postman &  &  & AusEng & people \\ 
+  538 & potato & NZEng & food\_drink & AusEng & food\_drink \\ 
+  539 & potato chip/crisps &  &  & AusEng & food\_drink \\ 
+  540 & potato\_chip & NZEng & food\_drink &  &  \\ 
+  541 & potty & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  542 & pour & NZEng & action\_words & AusEng & action\_words \\ 
+  543 & pram &  &  & AusEng & vehicles \\ 
+  544 & present & NZEng & toys &  &  \\ 
+  545 & present/pressie &  &  & AusEng & toys \\ 
+  546 & pretend & NZEng & action\_words & AusEng & action\_words \\ 
+  547 & pretty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  548 & pretzel & NZEng & food\_drink &  &  \\ 
+  549 & pudding & NZEng & food\_drink & AusEng & food\_drink \\ 
+  550 & pull & NZEng & action\_words & AusEng & action\_words \\ 
+  551 & pumpkin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  552 & puppy & NZEng & animals & AusEng & animals \\ 
+  553 & purse & NZEng & household\_items &  &  \\ 
+  554 & purse/wallet &  &  & AusEng & household \\ 
+  555 & push & NZEng & action\_words & AusEng & action\_words \\ 
+  556 & pushchair & NZEng & vehicles &  &  \\ 
+  557 & put & NZEng & action\_words & AusEng & action\_words \\ 
+  558 & puzzle & NZEng & toys & AusEng & toys \\ 
+  559 & pyjamas & NZEng & clothing &  &  \\ 
+  560 & pyjamas/jamies &  &  & AusEng & clothing \\ 
+  561 & quack quack &  &  & AusEng & sounds \\ 
+  562 & quack\_quack & NZEng & sound\_effects &  &  \\ 
+  563 & quiet & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  564 & radio & NZEng & household\_items & AusEng & household \\ 
+  565 & rain & NZEng & outside\_things & AusEng & outside \\ 
+  566 & raisin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  567 & read & NZEng & action\_words & AusEng & action\_words \\ 
+  568 & red & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  569 & ride & NZEng & action\_words & AusEng & action\_words \\ 
+  570 & rip & NZEng & action\_words & AusEng & action\_words \\ 
+  571 & rock & NZEng & outside\_things & AusEng & outside \\ 
+  572 & rocking chair &  &  & AusEng & furniture\_rooms \\ 
+  573 & rocking\_chair & NZEng & furniture\_rooms &  &  \\ 
+  574 & roof & NZEng & outside\_things & AusEng & outside \\ 
+  575 & room & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  576 & rooster & NZEng & animals &  &  \\ 
+  577 & rubbish & NZEng & household\_items &  &  \\ 
+  578 & run & NZEng & action\_words & AusEng & action\_words \\ 
+  579 & sad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  580 & salt & NZEng & food\_drink & AusEng & food\_drink \\ 
+  581 & same & NZEng & quantifiers\_articles &  &  \\ 
+  582 & sandpit & NZEng & outside\_things & AusEng & outside \\ 
+  583 & sandwich & NZEng & food\_drink & AusEng & food\_drink \\ 
+  584 & sauce & NZEng & food\_drink &  &  \\ 
+  585 & say & NZEng & action\_words & AusEng & action\_words \\ 
+  586 & scared & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  587 & scarf & NZEng & clothing &  &  \\ 
+  588 & school & NZEng & places\_to\_go &  &  \\ 
+  589 & school/kindie/preschool &  &  & AusEng & places \\ 
+  590 & scissors & NZEng & household\_items & AusEng & household \\ 
+  591 & scratch &  &  & AusEng & action\_words \\ 
+  592 & see & NZEng & action\_words & AusEng & action\_words \\ 
+  593 & serviette & NZEng & household\_items &  &  \\ 
+  594 & serviette/napkin &  &  & AusEng & household \\ 
+  595 & shake & NZEng & action\_words & AusEng & action\_words \\ 
+  596 & share & NZEng & action\_words & AusEng & action\_words \\ 
+  597 & she & NZEng & pronouns &  &  \\ 
+  598 & shed &  &  & AusEng & outside \\ 
+  599 & sheep & NZEng & animals & AusEng & animals \\ 
+  600 & shh\_shush\_hush & NZEng & games\_routines &  &  \\ 
+  601 & shh/shush/hush &  &  & AusEng & games\_routines \\ 
+  602 & shirt & NZEng & clothing & AusEng & clothing \\ 
+  603 & shoe & NZEng & clothing &  &  \\ 
+  604 & shoe(s) &  &  & AusEng & clothing \\ 
+  605 & shop & NZEng & places\_to\_go & AusEng & places \\ 
+  606 & shopping & NZEng & games\_routines & AusEng & games\_routines \\ 
+  607 & shorts & NZEng & clothing & AusEng & clothing \\ 
+  608 & shoulder & NZEng & body\_parts & AusEng & body\_parts \\ 
+  609 & shovel &  &  & AusEng & outside \\ 
+  610 & show & NZEng & action\_words & AusEng & places \\ 
+  611 & show & NZEng & action\_words & AusEng & action\_words \\ 
+  612 & shower & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  613 & shut &  &  & AusEng & action\_words \\ 
+  614 & sick & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  615 & sing & NZEng & action\_words & AusEng & action\_words \\ 
+  616 & sink & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  617 & sister & NZEng & people & AusEng & people \\ 
+  618 & sit & NZEng & action\_words & AusEng & action\_words \\ 
+  619 & skate & NZEng & action\_words &  &  \\ 
+  620 & sky & NZEng & outside\_things & AusEng & outside \\ 
+  621 & sled & NZEng & vehicles &  &  \\ 
+  622 & sleep & NZEng & action\_words & AusEng & action\_words \\ 
+  623 & sleepy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  624 & slide & NZEng & outside\_things & AusEng & outside \\ 
+  625 & slide & NZEng & outside\_things & AusEng & action\_words \\ 
+  626 & slide & NZEng & action\_words & AusEng & outside \\ 
+  627 & slide & NZEng & action\_words & AusEng & action\_words \\ 
+  628 & slipper & NZEng & clothing &  &  \\ 
+  629 & slipper(s) &  &  & AusEng & clothing \\ 
+  630 & slow & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  631 & smell &  &  & AusEng & action\_words \\ 
+  632 & smile & NZEng & action\_words & AusEng & action\_words \\ 
+  633 & snack & NZEng & games\_routines & AusEng & games\_routines \\ 
+  634 & snake &  &  & AusEng & animals \\ 
+  635 & sneaker & NZEng & clothing &  &  \\ 
+  636 & snow & NZEng & outside\_things &  &  \\ 
+  637 & snowman & NZEng & outside\_things &  &  \\ 
+  638 & snowsuit & NZEng & clothing &  &  \\ 
+  639 & so & NZEng & connecting\_words &  &  \\ 
+  640 & soap & NZEng & household\_items & AusEng & household \\ 
+  641 & sock & NZEng & clothing &  &  \\ 
+  642 & sock(s) &  &  & AusEng & clothing \\ 
+  643 & sofa & NZEng & furniture\_rooms &  &  \\ 
+  644 & soft & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  645 & some & NZEng & quantifiers\_articles &  &  \\ 
+  646 & sore & NZEng & body\_parts &  &  \\ 
+  647 & soup & NZEng & food\_drink & AusEng & food\_drink \\ 
+  648 & spade & NZEng & outside\_things &  &  \\ 
+  649 & spaghetti & NZEng & food\_drink & AusEng & food\_drink \\ 
+  650 & spider &  &  & AusEng & animals \\ 
+  651 & spill & NZEng & action\_words & AusEng & action\_words \\ 
+  652 & splash & NZEng & action\_words & AusEng & action\_words \\ 
+  653 & spoon & NZEng & household\_items & AusEng & household \\ 
+  654 & sprinkler & NZEng & outside\_things & AusEng & outside \\ 
+  655 & stairs & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  656 & stand & NZEng & action\_words & AusEng & action\_words \\ 
+  657 & star & NZEng & outside\_things & AusEng & outside \\ 
+  658 & stay & NZEng & action\_words & AusEng & action\_words \\ 
+  659 & stick & NZEng & outside\_things & AusEng & outside \\ 
+  660 & sticky & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  661 & stomach/tummy &  &  & AusEng & body\_parts \\ 
+  662 & stone & NZEng & outside\_things & AusEng & outside \\ 
+  663 & stop & NZEng & action\_words & AusEng & action\_words \\ 
+  664 & story & NZEng & toys & AusEng & toys \\ 
+  665 & stove & NZEng & furniture\_rooms &  &  \\ 
+  666 & strawberry & NZEng & food\_drink & AusEng & food\_drink \\ 
+  667 & street & NZEng & outside\_things & AusEng & outside \\ 
+  668 & stroller &  &  & AusEng & vehicles \\ 
+  669 & stuck & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  670 & sun & NZEng & outside\_things & AusEng & outside \\ 
+  671 & sunglasses/sunnies &  &  & AusEng & clothing \\ 
+  672 & sweep & NZEng & action\_words & AusEng & action\_words \\ 
+  673 & swim & NZEng & action\_words & AusEng & action\_words \\ 
+  674 & swing & NZEng & outside\_things & AusEng & outside \\ 
+  675 & swing & NZEng & outside\_things & AusEng & action\_words \\ 
+  676 & swing & NZEng & action\_words & AusEng & outside \\ 
+  677 & swing & NZEng & action\_words & AusEng & action\_words \\ 
+  678 & table & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  679 & take & NZEng & action\_words & AusEng & action\_words \\ 
+  680 & talk & NZEng & action\_words & AusEng & action\_words \\ 
+  681 & tape & NZEng & household\_items & AusEng & household \\ 
+  682 & taste & NZEng & action\_words & AusEng & action\_words \\ 
+  683 & teacher & NZEng & people & AusEng & people \\ 
+  684 & tear & NZEng & action\_words & AusEng & action\_words \\ 
+  685 & teddy bear &  &  & AusEng & toys \\ 
+  686 & teddybear & NZEng & animals &  &  \\ 
+  687 & telephone & NZEng & household\_items &  &  \\ 
+  688 & telephone/phone &  &  & AusEng & household \\ 
+  689 & tell &  &  & AusEng & action\_words \\ 
+  690 & thank you &  &  & AusEng & games\_routines \\ 
+  691 & thank\_you & NZEng & games\_routines &  &  \\ 
+  692 & that & NZEng & pronouns &  &  \\ 
+  693 & the & NZEng & quantifiers\_articles &  &  \\ 
+  694 & their & NZEng & pronouns &  &  \\ 
+  695 & them & NZEng & pronouns &  &  \\ 
+  696 & then & NZEng & connecting\_words &  &  \\ 
+  697 & there & NZEng & prepositions\_locations &  &  \\ 
+  698 & these & NZEng & pronouns &  &  \\ 
+  699 & they & NZEng & pronouns &  &  \\ 
+  700 & think & NZEng & action\_words & AusEng & action\_words \\ 
+  701 & thirsty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  702 & this & NZEng & pronouns &  &  \\ 
+  703 & this\_little\_piggy & NZEng & games\_routines &  &  \\ 
+  704 & thongs &  &  & AusEng & clothing \\ 
+  705 & those & NZEng & pronouns &  &  \\ 
+  706 & three wheeler/tricycle &  &  & AusEng & vehicles \\ 
+  707 & throw & NZEng & action\_words & AusEng & action\_words \\ 
+  708 & tickle & NZEng & action\_words & AusEng & action\_words \\ 
+  709 & tiger & NZEng & animals & AusEng & animals \\ 
+  710 & tights & NZEng & clothing &  &  \\ 
+  711 & time & NZEng & time\_words &  &  \\ 
+  712 & tin & NZEng & household\_items &  &  \\ 
+  713 & tiny & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  714 & tired & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  715 & tissue & NZEng & household\_items & AusEng & household \\ 
+  716 & to & NZEng & prepositions\_locations &  &  \\ 
+  717 & toast & NZEng & food\_drink & AusEng & food\_drink \\ 
+  718 & today & NZEng & time\_words &  &  \\ 
+  719 & toe & NZEng & body\_parts &  &  \\ 
+  720 & toe(s) &  &  & AusEng & body\_parts \\ 
+  721 & tomato\_sauce & NZEng & food\_drink &  &  \\ 
+  722 & tomorrow & NZEng & time\_words &  &  \\ 
+  723 & tongue & NZEng & body\_parts & AusEng & body\_parts \\ 
+  724 & tonight & NZEng & time\_words &  &  \\ 
+  725 & too & NZEng & quantifiers\_articles &  &  \\ 
+  726 & tooth & NZEng & body\_parts &  &  \\ 
+  727 & tooth/teeth &  &  & AusEng & body\_parts \\ 
+  728 & toothbrush & NZEng & household\_items & AusEng & household \\ 
+  729 & touch & NZEng & action\_words & AusEng & action\_words \\ 
+  730 & towel & NZEng & household\_items & AusEng & household \\ 
+  731 & toy & NZEng & toys & AusEng & toys \\ 
+  732 & tractor & NZEng & vehicles & AusEng & vehicles \\ 
+  733 & train & NZEng & vehicles & AusEng & vehicles \\ 
+  734 & tray & NZEng & household\_items & AusEng & household \\ 
+  735 & tree & NZEng & outside\_things & AusEng & outside \\ 
+  736 & tricycle & NZEng & vehicles &  &  \\ 
+  737 & trousers & NZEng & clothing &  &  \\ 
+  738 & truck & NZEng & vehicles & AusEng & vehicles \\ 
+  739 & try\_try\_to & NZEng & helping verbs &  &  \\ 
+  740 & tummy & NZEng & body\_parts &  &  \\ 
+  741 & tuna & NZEng & food\_drink & AusEng & food\_drink \\ 
+  742 & turkey & NZEng & animals & AusEng & animals \\ 
+  743 & turn\_around & NZEng & games\_routines &  &  \\ 
+  744 & turtle & NZEng & animals & AusEng & animals \\ 
+  745 & tv & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  746 & uh oh &  &  & AusEng & sounds \\ 
+  747 & uhoh & NZEng & sound\_effects &  &  \\ 
+  748 & uncle & NZEng & people & AusEng & people \\ 
+  749 & under & NZEng & prepositions\_locations &  &  \\ 
+  750 & underpants & NZEng & clothing &  &  \\ 
+  751 & underpants/undies &  &  & AusEng & clothing \\ 
+  752 & up & NZEng & prepositions\_locations &  &  \\ 
+  753 & us & NZEng & pronouns &  &  \\ 
+  754 & vacuum cleaner &  &  & AusEng & household \\ 
+  755 & vacuum\_cleaner & NZEng & household\_items &  &  \\ 
+  756 & vagina & NZEng & body\_parts &  &  \\ 
+  757 & vanilla & NZEng & food\_drink & AusEng & food\_drink \\ 
+  758 & vegemite &  &  & AusEng & food\_drink \\ 
+  759 & veranda/porch &  &  & AusEng & furniture\_rooms \\ 
+  760 & vitamins & NZEng & food\_drink & AusEng & food\_drink \\ 
+  761 & vroom & NZEng & sound\_effects &  &  \\ 
+  762 & vroom/broom &  &  & AusEng & sounds \\ 
+  763 & wait & NZEng & action\_words & AusEng & games\_routines \\ 
+  764 & wake & NZEng & action\_words & AusEng & action\_words \\ 
+  765 & walk & NZEng & action\_words & AusEng & action\_words \\ 
+  766 & walker & NZEng & household\_items &  &  \\ 
+  767 & wall &  &  & AusEng & outside \\ 
+  768 & wanna\_want\_to & NZEng & helping verbs &  &  \\ 
+  769 & want to &  &  & AusEng & games\_routines \\ 
+  770 & wardrobe & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  771 & was & NZEng & helping verbs &  &  \\ 
+  772 & wash & NZEng & action\_words & AusEng & action\_words \\ 
+  773 & washing machine &  &  & AusEng & furniture\_rooms \\ 
+  774 & washing\_machine & NZEng & furniture\_rooms &  &  \\ 
+  775 & watch & NZEng & household\_items & AusEng & household \\ 
+  776 & watch & NZEng & household\_items & AusEng & action\_words \\ 
+  777 & watch & NZEng & action\_words & AusEng & household \\ 
+  778 & watch & NZEng & action\_words & AusEng & action\_words \\ 
+  779 & water & NZEng & food\_drink & AusEng & food\_drink \\ 
+  780 & water & NZEng & food\_drink & AusEng & outside \\ 
+  781 & water & NZEng & outside\_things & AusEng & food\_drink \\ 
+  782 & water & NZEng & outside\_things & AusEng & outside \\ 
+  783 & waves &  &  & AusEng & outside \\ 
+  784 & we & NZEng & pronouns &  &  \\ 
+  785 & were & NZEng & helping verbs &  &  \\ 
+  786 & wet & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  787 & what & NZEng & question\_words &  &  \\ 
+  788 & when & NZEng & question\_words &  &  \\ 
+  789 & where & NZEng & question\_words &  &  \\ 
+  790 & which & NZEng & question\_words &  &  \\ 
+  791 & white & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  792 & who & NZEng & question\_words &  &  \\ 
+  793 & why & NZEng & question\_words &  &  \\ 
+  794 & will & NZEng & helping verbs &  &  \\ 
+  795 & wind & NZEng & outside\_things & AusEng & outside \\ 
+  796 & window & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  797 & windy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  798 & wipe & NZEng & action\_words & AusEng & action\_words \\ 
+  799 & wish & NZEng & action\_words & AusEng & action\_words \\ 
+  800 & with & NZEng & prepositions\_locations &  &  \\ 
+  801 & wolf & NZEng & animals &  &  \\ 
+  802 & wombat &  &  & AusEng & animals \\ 
+  803 & woof woof &  &  & AusEng & sounds \\ 
+  804 & woof\_woof & NZEng & sound\_effects &  &  \\ 
+  805 & work & NZEng & places\_to\_go & AusEng & places \\ 
+  806 & work & NZEng & places\_to\_go & AusEng & action\_words \\ 
+  807 & work & NZEng & action\_words & AusEng & places \\ 
+  808 & work & NZEng & action\_words & AusEng & action\_words \\ 
+  809 & would & NZEng & helping verbs &  &  \\ 
+  810 & write & NZEng & action\_words & AusEng & action\_words \\ 
+  811 & yard & NZEng & places\_to\_go & AusEng & places \\ 
+  812 & yellow & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  813 & yes & NZEng & games\_routines & AusEng & games\_routines \\ 
+  814 & yesterday & NZEng & time\_words &  &  \\ 
+  815 & yoghurt &  &  & AusEng & food\_drink \\ 
+  816 & yogurt & NZEng & food\_drink &  &  \\ 
+  817 & you & NZEng & pronouns &  &  \\ 
+  818 & your & NZEng & pronouns &  &  \\ 
+  819 & yourself & NZEng & pronouns &  &  \\ 
+  820 & yucky & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  821 & yum yum &  &  & AusEng & sounds \\ 
+  822 & yum\_yum & NZEng & sound\_effects &  &  \\ 
+  823 & yummy &  &  & AusEng & descriptive\_words \\ 
+  824 & zebra & NZEng & animals & AusEng & animals \\ 
+  825 & zip & NZEng & clothing &  &  \\ 
+  826 & zipper &  &  & AusEng & clothing \\ 
+  827 & zoo & NZEng & places\_to\_go & AusEng & places \\   
+   \bottomrule
+\end{longtable}
+
+\begin{longtable}{rllccl}
+  \caption[]{Words (with section) occurring on OZI but not on NZ CDI:WS}\\
   \toprule
- & KidsWords & item & KidsWords & OZI & OZI \\ 
+ & Word & CDI & Section & CDI & Section \\ 
   \midrule
-1 &  & (air)plane &  & AusEng & vehicles \\ 
-  2 &  & (pussy)cat &  & AusEng & animals \\ 
-  3 &  & (tomato) sauce &  & AusEng & food\_drink \\ 
-  4 &  & all gone &  & AusEng & descriptive\_words \\ 
-  5 &  & aunt &  & AusEng & people \\ 
-  6 &  & baa baa &  & AusEng & sounds \\ 
-  7 &  & barbecue &  & AusEng & places \\ 
-  8 &  & bath (tub) &  & AusEng & furniture\_rooms \\ 
-  9 &  & bathroom &  & AusEng & furniture\_rooms \\ 
-  10 &  & beanie &  & AusEng & clothing \\ 
-  11 &  & bellybutton/navel &  & AusEng & body\_parts \\ 
-  12 &  & bicycle/bike &  & AusEng & vehicles \\ 
-  13 &  & bin &  & AusEng & household \\ 
-  14 &  & biscuit/bickie &  & AusEng & food\_drink \\ 
-  15 &  & block/brick &  & AusEng & toys \\ 
-  16 &  & boot(s) &  & AusEng & clothing \\ 
-  17 &  & bottom &  & AusEng & body\_parts \\ 
-  18 &  & breasts &  & AusEng & body\_parts \\ 
-  19 &  & bug &  & AusEng & animals \\ 
-  20 &  & bunny/rabbit &  & AusEng & animals \\ 
-  21 &  & bush &  & AusEng & places \\ 
-  22 &  & call &  & AusEng & action\_words \\ 
-  23 &  & call(phone) &  & AusEng & games\_routines \\ 
-  24 &  & carrot &  & AusEng & food\_drink \\ 
-  25 &  & chewing gum/chewie &  & AusEng & food\_drink \\ 
-  26 &  & child's own name &  & AusEng & people \\ 
-  27 &  & child/kid &  & AusEng & people \\ 
-  28 &  & choo choo &  & AusEng & sounds \\ 
-  29 &  & church/mosque &  & AusEng & places \\ 
-  30 &  & city &  & AusEng & places \\ 
-  31 &  & cockroach &  & AusEng & animals \\ 
-  32 &  & computer &  & AusEng & furniture\_rooms \\ 
-  33 &  & cordial &  & AusEng & food\_drink \\ 
-  34 &  & couch/lounge/sofa &  & AusEng & furniture\_rooms \\ 
-  35 &  & crib &  & AusEng & furniture\_rooms \\ 
-  36 &  & crocodile &  & AusEng & animals \\ 
-  37 &  & cuddle &  & AusEng & action\_words \\ 
-  38 &  & custard &  & AusEng & food\_drink \\ 
-  39 &  & dinner &  & AusEng & games\_routines \\ 
-  40 &  & easy &  & AusEng & descriptive\_words \\ 
-  41 &  & finger(s) &  & AusEng & body\_parts \\ 
-  42 &  & fire truck/engine &  & AusEng & vehicles \\ 
-  43 &  & foot/feet &  & AusEng & body\_parts \\ 
-  44 &  & friend's name &  & AusEng & people \\ 
-  45 &  & garbage/rubbish &  & AusEng & household \\ 
-  46 &  & give me five! &  & AusEng & games\_routines \\ 
-  47 &  & go potty &  & AusEng & games\_routines \\ 
-  48 &  & goodbye/bye bye &  & AusEng & games\_routines \\ 
-  49 &  & grandma/nanna &  & AusEng & people \\ 
-  50 &  & grandpa/pop &  & AusEng & people \\ 
-  51 &  & hide and seek/hidie &  & AusEng & games\_routines \\ 
-  52 &  & high chair &  & AusEng & furniture\_rooms \\ 
-  53 &  & home/house &  & AusEng & places \\ 
-  54 &  & ice cream &  & AusEng & food\_drink \\ 
-  55 &  & jumper &  & AusEng & clothing \\ 
-  56 &  & kangaroo/roo &  & AusEng & animals \\ 
-  57 &  & know &  & AusEng & action\_words \\ 
-  58 &  & koala &  & AusEng & animals \\ 
-  59 &  & lawn mower &  & AusEng & outside \\ 
-  60 &  & living/lounge room &  & AusEng & furniture\_rooms \\ 
-  61 &  & lolly &  & AusEng & food\_drink \\ 
-  62 &  & mango &  & AusEng & food\_drink \\ 
-  63 &  & movies &  & AusEng & places \\ 
-  64 &  & mug &  & AusEng & household \\ 
-  65 &  & nail(s) &  & AusEng & body\_parts \\ 
-  66 &  & nasty &  & AusEng & descriptive\_words \\ 
-  67 &  & neck &  & AusEng & body\_parts \\ 
-  68 &  & newspaper/paper &  & AusEng & household \\ 
-  69 &  & night night &  & AusEng & games\_routines \\ 
-  70 &  & no/don't &  & AusEng & games\_routines \\ 
-  71 &  & oven/stove &  & AusEng & furniture\_rooms \\ 
-  72 &  & pants &  & AusEng & clothing \\ 
-  73 &  & pasta &  & AusEng & food\_drink \\ 
-  74 &  & patty cake/pat-a-cake &  & AusEng & games\_routines \\ 
-  75 &  & peanut butter &  & AusEng & food\_drink \\ 
-  76 &  & pet's name &  & AusEng & people \\ 
-  77 &  & petrol station &  & AusEng & places \\ 
-  78 &  & photo &  & AusEng & household \\ 
-  79 &  & pineapple &  & AusEng & food\_drink \\ 
-  80 &  & play dough &  & AusEng & toys \\ 
-  81 &  & play pen &  & AusEng & furniture\_rooms \\ 
-  82 &  & police(man) &  & AusEng & people \\ 
-  83 &  & postman &  & AusEng & people \\ 
-  84 &  & potato chip/crisps &  & AusEng & food\_drink \\ 
-  85 &  & pram &  & AusEng & vehicles \\ 
-  86 &  & present/pressie &  & AusEng & toys \\ 
-  87 &  & purse/wallet &  & AusEng & household \\ 
-  88 &  & pyjamas/jamies &  & AusEng & clothing \\ 
-  89 &  & quack quack &  & AusEng & sounds \\ 
-  90 &  & rocking chair &  & AusEng & furniture\_rooms \\ 
-  91 &  & school/kindie/preschool &  & AusEng & places \\ 
-  92 &  & scratch &  & AusEng & action\_words \\ 
-  93 &  & serviette/napkin &  & AusEng & household \\ 
-  94 &  & shed &  & AusEng & outside \\ 
-  95 &  & shh/shush/hush &  & AusEng & games\_routines \\ 
-  96 &  & shoe(s) &  & AusEng & clothing \\ 
-  97 &  & shovel &  & AusEng & outside \\ 
-  98 &  & shut &  & AusEng & action\_words \\ 
-  99 &  & slipper(s) &  & AusEng & clothing \\ 
-  100 &  & smell &  & AusEng & action\_words \\ 
-  101 &  & snake &  & AusEng & animals \\ 
-  102 &  & sock(s) &  & AusEng & clothing \\ 
-  103 &  & spider &  & AusEng & animals \\ 
-  104 &  & stomach/tummy &  & AusEng & body\_parts \\ 
-  105 &  & stroller &  & AusEng & vehicles \\ 
-  106 &  & sunglasses/sunnies &  & AusEng & clothing \\ 
-  107 &  & teddy bear &  & AusEng & toys \\ 
-  108 &  & telephone/phone &  & AusEng & household \\ 
-  109 &  & tell &  & AusEng & action\_words \\ 
-  110 &  & thank you &  & AusEng & games\_routines \\ 
-  111 &  & thongs &  & AusEng & clothing \\ 
-  112 &  & three wheeler/tricycle &  & AusEng & vehicles \\ 
-  113 &  & toe(s) &  & AusEng & body\_parts \\ 
-  114 &  & tooth/teeth &  & AusEng & body\_parts \\ 
-  115 &  & uh oh &  & AusEng & sounds \\ 
-  116 &  & underpants/undies &  & AusEng & clothing \\ 
-  117 &  & vacuum cleaner &  & AusEng & household \\ 
-  118 &  & vegemite &  & AusEng & food\_drink \\ 
-  119 &  & veranda/porch &  & AusEng & furniture\_rooms \\ 
-  120 &  & vroom/broom &  & AusEng & sounds \\ 
-  121 &  & wall &  & AusEng & outside \\ 
-  122 &  & want to &  & AusEng & games\_routines \\ 
-  123 &  & washing machine &  & AusEng & furniture\_rooms \\ 
-  124 &  & waves &  & AusEng & outside \\ 
-  125 &  & wombat &  & AusEng & animals \\ 
-  126 &  & woof woof &  & AusEng & sounds \\ 
-  127 &  & yoghurt &  & AusEng & food\_drink \\ 
-  128 &  & yum yum &  & AusEng & sounds \\ 
-  129 &  & yummy &  & AusEng & descriptive\_words \\ 
-  130 &  & zipper &  & AusEng & clothing \\ 
+  \endhead
+1 & (air)plane &  &  & AusEng & vehicles \\ 
+  2 & (pussy)cat &  &  & AusEng & animals \\ 
+  3 & (tomato) sauce &  &  & AusEng & food\_drink \\ 
+  4 & all gone &  &  & AusEng & descriptive\_words \\ 
+  5 & aunt &  &  & AusEng & people \\ 
+  6 & baa baa &  &  & AusEng & sounds \\ 
+  7 & barbecue &  &  & AusEng & places \\ 
+  8 & bath (tub) &  &  & AusEng & furniture\_rooms \\ 
+  9 & bathroom &  &  & AusEng & furniture\_rooms \\ 
+  10 & beanie &  &  & AusEng & clothing \\ 
+  11 & bellybutton/navel &  &  & AusEng & body\_parts \\ 
+  12 & bicycle/bike &  &  & AusEng & vehicles \\ 
+  13 & bin &  &  & AusEng & household \\ 
+  14 & biscuit/bickie &  &  & AusEng & food\_drink \\ 
+  15 & block/brick &  &  & AusEng & toys \\ 
+  16 & boot(s) &  &  & AusEng & clothing \\ 
+  17 & bottom &  &  & AusEng & body\_parts \\ 
+  18 & breasts &  &  & AusEng & body\_parts \\ 
+  19 & bug &  &  & AusEng & animals \\ 
+  20 & bunny/rabbit &  &  & AusEng & animals \\ 
+  21 & bush &  &  & AusEng & places \\ 
+  22 & call &  &  & AusEng & action\_words \\ 
+  23 & call(phone) &  &  & AusEng & games\_routines \\ 
+  24 & carrot &  &  & AusEng & food\_drink \\ 
+  25 & chewing gum/chewie &  &  & AusEng & food\_drink \\ 
+  26 & child's own name &  &  & AusEng & people \\ 
+  27 & child/kid &  &  & AusEng & people \\ 
+  28 & choo choo &  &  & AusEng & sounds \\ 
+  29 & church/mosque &  &  & AusEng & places \\ 
+  30 & city &  &  & AusEng & places \\ 
+  31 & cockroach &  &  & AusEng & animals \\ 
+  32 & computer &  &  & AusEng & furniture\_rooms \\ 
+  33 & cordial &  &  & AusEng & food\_drink \\ 
+  34 & couch/lounge/sofa &  &  & AusEng & furniture\_rooms \\ 
+  35 & crib &  &  & AusEng & furniture\_rooms \\ 
+  36 & crocodile &  &  & AusEng & animals \\ 
+  37 & cuddle &  &  & AusEng & action\_words \\ 
+  38 & custard &  &  & AusEng & food\_drink \\ 
+  39 & dinner &  &  & AusEng & games\_routines \\ 
+  40 & easy &  &  & AusEng & descriptive\_words \\ 
+  41 & finger(s) &  &  & AusEng & body\_parts \\ 
+  42 & fire truck/engine &  &  & AusEng & vehicles \\ 
+  43 & foot/feet &  &  & AusEng & body\_parts \\ 
+  44 & friend's name &  &  & AusEng & people \\ 
+  45 & garbage/rubbish &  &  & AusEng & household \\ 
+  46 & give me five! &  &  & AusEng & games\_routines \\ 
+  47 & go potty &  &  & AusEng & games\_routines \\ 
+  48 & goodbye/bye bye &  &  & AusEng & games\_routines \\ 
+  49 & grandma/nanna &  &  & AusEng & people \\ 
+  50 & grandpa/pop &  &  & AusEng & people \\ 
+  51 & hide and seek/hidie &  &  & AusEng & games\_routines \\ 
+  52 & high chair &  &  & AusEng & furniture\_rooms \\ 
+  53 & home/house &  &  & AusEng & places \\ 
+  54 & ice cream &  &  & AusEng & food\_drink \\ 
+  55 & jumper &  &  & AusEng & clothing \\ 
+  56 & kangaroo/roo &  &  & AusEng & animals \\ 
+  57 & know &  &  & AusEng & action\_words \\ 
+  58 & koala &  &  & AusEng & animals \\ 
+  59 & lawn mower &  &  & AusEng & outside \\ 
+  60 & living/lounge room &  &  & AusEng & furniture\_rooms \\ 
+  61 & lolly &  &  & AusEng & food\_drink \\ 
+  62 & mango &  &  & AusEng & food\_drink \\ 
+  63 & movies &  &  & AusEng & places \\ 
+  64 & mug &  &  & AusEng & household \\ 
+  65 & nail(s) &  &  & AusEng & body\_parts \\ 
+  66 & nasty &  &  & AusEng & descriptive\_words \\ 
+  67 & neck &  &  & AusEng & body\_parts \\ 
+  68 & newspaper/paper &  &  & AusEng & household \\ 
+  69 & night night &  &  & AusEng & games\_routines \\ 
+  70 & no/don't &  &  & AusEng & games\_routines \\ 
+  71 & oven/stove &  &  & AusEng & furniture\_rooms \\ 
+  72 & pants &  &  & AusEng & clothing \\ 
+  73 & pasta &  &  & AusEng & food\_drink \\ 
+  74 & patty cake/pat-a-cake &  &  & AusEng & games\_routines \\ 
+  75 & peanut butter &  &  & AusEng & food\_drink \\ 
+  76 & pet's name &  &  & AusEng & people \\ 
+  77 & petrol station &  &  & AusEng & places \\ 
+  78 & photo &  &  & AusEng & household \\ 
+  79 & pineapple &  &  & AusEng & food\_drink \\ 
+  80 & play dough &  &  & AusEng & toys \\ 
+  81 & play pen &  &  & AusEng & furniture\_rooms \\ 
+  82 & police(man) &  &  & AusEng & people \\ 
+  83 & postman &  &  & AusEng & people \\ 
+  84 & potato chip/crisps &  &  & AusEng & food\_drink \\ 
+  85 & pram &  &  & AusEng & vehicles \\ 
+  86 & present/pressie &  &  & AusEng & toys \\ 
+  87 & purse/wallet &  &  & AusEng & household \\ 
+  88 & pyjamas/jamies &  &  & AusEng & clothing \\ 
+  89 & quack quack &  &  & AusEng & sounds \\ 
+  90 & rocking chair &  &  & AusEng & furniture\_rooms \\ 
+  91 & school/kindie/preschool &  &  & AusEng & places \\ 
+  92 & scratch &  &  & AusEng & action\_words \\ 
+  93 & serviette/napkin &  &  & AusEng & household \\ 
+  94 & shed &  &  & AusEng & outside \\ 
+  95 & shh/shush/hush &  &  & AusEng & games\_routines \\ 
+  96 & shoe(s) &  &  & AusEng & clothing \\ 
+  97 & shovel &  &  & AusEng & outside \\ 
+  98 & shut &  &  & AusEng & action\_words \\ 
+  99 & slipper(s) &  &  & AusEng & clothing \\ 
+  100 & smell &  &  & AusEng & action\_words \\ 
+  101 & snake &  &  & AusEng & animals \\ 
+  102 & sock(s) &  &  & AusEng & clothing \\ 
+  103 & spider &  &  & AusEng & animals \\ 
+  104 & stomach/tummy &  &  & AusEng & body\_parts \\ 
+  105 & stroller &  &  & AusEng & vehicles \\ 
+  106 & sunglasses/sunnies &  &  & AusEng & clothing \\ 
+  107 & teddy bear &  &  & AusEng & toys \\ 
+  108 & telephone/phone &  &  & AusEng & household \\ 
+  109 & tell &  &  & AusEng & action\_words \\ 
+  110 & thank you &  &  & AusEng & games\_routines \\ 
+  111 & thongs &  &  & AusEng & clothing \\ 
+  112 & three wheeler/tricycle &  &  & AusEng & vehicles \\ 
+  113 & toe(s) &  &  & AusEng & body\_parts \\ 
+  114 & tooth/teeth &  &  & AusEng & body\_parts \\ 
+  115 & uh oh &  &  & AusEng & sounds \\ 
+  116 & underpants/undies &  &  & AusEng & clothing \\ 
+  117 & vacuum cleaner &  &  & AusEng & household \\ 
+  118 & vegemite &  &  & AusEng & food\_drink \\ 
+  119 & veranda/porch &  &  & AusEng & furniture\_rooms \\ 
+  120 & vroom/broom &  &  & AusEng & sounds \\ 
+  121 & wall &  &  & AusEng & outside \\ 
+  122 & want to &  &  & AusEng & games\_routines \\ 
+  123 & washing machine &  &  & AusEng & furniture\_rooms \\ 
+  124 & waves &  &  & AusEng & outside \\ 
+  125 & wombat &  &  & AusEng & animals \\ 
+  126 & woof woof &  &  & AusEng & sounds \\ 
+  127 & yoghurt &  &  & AusEng & food\_drink \\ 
+  128 & yum yum &  &  & AusEng & sounds \\ 
+  129 & yummy &  &  & AusEng & descriptive\_words \\ 
+  130 & zipper &  &  & AusEng & clothing \\ 
+   \bottomrule
+\end{longtable}
+
+\begin{longtable}{rllccl}
+  \caption[]{Words (with section) occurring on NZ CDI:WS but not on OZI}\\
+  \toprule
+ & Word & CDI & Section & CDI & Section \\ 
+  \midrule
+  \endhead
+1 & a & NZEng & quantifiers\_articles &  &  \\ 
+  2 & a\_lot & NZEng & quantifiers\_articles &  &  \\ 
+  3 & about & NZEng & prepositions\_locations &  &  \\ 
+  4 & above & NZEng & prepositions\_locations &  &  \\ 
+  5 & aeroplane & NZEng & vehicles &  &  \\ 
+  6 & after & NZEng & time\_words &  &  \\ 
+  7 & all & NZEng & quantifiers\_articles &  &  \\ 
+  8 & allgone & NZEng & descriptive\_words &  &  \\ 
+  9 & alligator & NZEng & animals &  &  \\ 
+  10 & am & NZEng & helping verbs &  &  \\ 
+  11 & an & NZEng & quantifiers\_articles &  &  \\ 
+  12 & and & NZEng & connecting\_words &  &  \\ 
+  13 & another & NZEng & quantifiers\_articles &  &  \\ 
+  14 & any & NZEng & quantifiers\_articles &  &  \\ 
+  15 & are & NZEng & helping verbs &  &  \\ 
+  16 & around & NZEng & prepositions\_locations &  &  \\ 
+  17 & at & NZEng & prepositions\_locations &  &  \\ 
+  18 & aunt\_auntie & NZEng & people &  &  \\ 
+  19 & away & NZEng & prepositions\_locations &  &  \\ 
+  20 & baa\_baa & NZEng & sound\_effects &  &  \\ 
+  21 & babysitter\_name & NZEng & people &  &  \\ 
+  22 & back & NZEng & prepositions\_locations &  &  \\ 
+  23 & bathroom & NZEng & furniture\_rooms &  &  \\ 
+  24 & be & NZEng & helping verbs &  &  \\ 
+  25 & bead & NZEng & clothing &  &  \\ 
+  26 & because & NZEng & connecting\_words &  &  \\ 
+  27 & before & NZEng & time\_words &  &  \\ 
+  28 & behind & NZEng & prepositions\_locations &  &  \\ 
+  29 & bellybutton & NZEng & body\_parts &  &  \\ 
+  30 & beside & NZEng & prepositions\_locations &  &  \\ 
+  31 & bike & NZEng & vehicles &  &  \\ 
+  32 & biscuit & NZEng & food\_drink &  &  \\ 
+  33 & block & NZEng & toys &  &  \\ 
+  34 & boots & NZEng & clothing &  &  \\ 
+  35 & bunny & NZEng & animals &  &  \\ 
+  36 & but & NZEng & connecting\_words &  &  \\ 
+  37 & buttocks\_bottom\_bum & NZEng & body\_parts &  &  \\ 
+  38 & by & NZEng & prepositions\_locations &  &  \\ 
+  39 & bye & NZEng & games\_routines &  &  \\ 
+  40 & call\_on\_the\_phone & NZEng & games\_routines &  &  \\ 
+  41 & camping & NZEng & places\_to\_go &  &  \\ 
+  42 & carrots & NZEng & food\_drink &  &  \\ 
+  43 & cat & NZEng & animals &  &  \\ 
+  44 & cellar & NZEng & furniture\_rooms &  &  \\ 
+  45 & chalk & NZEng & toys &  &  \\ 
+  46 & cheerios & NZEng & food\_drink &  &  \\ 
+  47 & chewing\_gum & NZEng & food\_drink &  &  \\ 
+  48 & child & NZEng & people &  &  \\ 
+  49 & child\_own\_name & NZEng & people &  &  \\ 
+  50 & chip & NZEng & food\_drink &  &  \\ 
+  51 & choo\_choo & NZEng & sound\_effects &  &  \\ 
+  52 & church & NZEng & places\_to\_go &  &  \\ 
+  53 & circus & NZEng & places\_to\_go &  &  \\ 
+  54 & coin & NZEng & household\_items &  &  \\ 
+  55 & couch & NZEng & furniture\_rooms &  &  \\ 
+  56 & could & NZEng & helping verbs &  &  \\ 
+  57 & cracker & NZEng & food\_drink &  &  \\ 
+  58 & day & NZEng & time\_words &  &  \\ 
+  59 & did\_didya & NZEng & helping verbs &  &  \\ 
+  60 & dinner\_tea & NZEng & games\_routines &  &  \\ 
+  61 & do & NZEng & helping verbs &  &  \\ 
+  62 & does & NZEng & helping verbs &  &  \\ 
+  63 & dont & NZEng & helping verbs &  &  \\ 
+  64 & down & NZEng & prepositions\_locations &  &  \\ 
+  65 & downtown & NZEng & places\_to\_go &  &  \\ 
+  66 & dryer & NZEng & furniture\_rooms &  &  \\ 
+  67 & each & NZEng & quantifiers\_articles &  &  \\ 
+  68 & every & NZEng & quantifiers\_articles &  &  \\ 
+  69 & feet & NZEng & body\_parts &  &  \\ 
+  70 & finger & NZEng & body\_parts &  &  \\ 
+  71 & fire\_engine & NZEng & vehicles &  &  \\ 
+  72 & fizzy\_drink & NZEng & food\_drink &  &  \\ 
+  73 & for & NZEng & prepositions\_locations &  &  \\ 
+  74 & forest & NZEng & places\_to\_go &  &  \\ 
+  75 & gherkin & NZEng & food\_drink &  &  \\ 
+  76 & givemefive & NZEng & games\_routines &  &  \\ 
+  77 & glasses & NZEng & household\_items &  &  \\ 
+  78 & gloves & NZEng & clothing &  &  \\ 
+  79 & go\_potty & NZEng & games\_routines &  &  \\ 
+  80 & gonna\_get\_you & NZEng & games\_routines &  &  \\ 
+  81 & gonna\_going\_to & NZEng & helping verbs &  &  \\ 
+  82 & gotta\_got\_to & NZEng & helping verbs &  &  \\ 
+  83 & grandma & NZEng & people &  &  \\ 
+  84 & grandpa & NZEng & people &  &  \\ 
+  85 & green\_beans & NZEng & food\_drink &  &  \\ 
+  86 & hafta\_have\_to & NZEng & helping verbs &  &  \\ 
+  87 & he & NZEng & pronouns &  &  \\ 
+  88 & hen & NZEng & animals &  &  \\ 
+  89 & her & NZEng & pronouns &  &  \\ 
+  90 & here & NZEng & prepositions\_locations &  &  \\ 
+  91 & hers & NZEng & pronouns &  &  \\ 
+  92 & high\_chair & NZEng & furniture\_rooms &  &  \\ 
+  93 & him & NZEng & pronouns &  &  \\ 
+  94 & his & NZEng & pronouns &  &  \\ 
+  95 & home & NZEng & places\_to\_go &  &  \\ 
+  96 & house & NZEng & places\_to\_go &  &  \\ 
+  97 & how & NZEng & question\_words &  &  \\ 
+  98 & i & NZEng & pronouns &  &  \\ 
+  99 & ice\_block & NZEng & food\_drink &  &  \\ 
+  100 & ice\_cream & NZEng & food\_drink &  &  \\ 
+  101 & if & NZEng & connecting\_words &  &  \\ 
+  102 & insect & NZEng & animals &  &  \\ 
+  103 & inside\_in & NZEng & prepositions\_locations &  &  \\ 
+  104 & into & NZEng & prepositions\_locations &  &  \\ 
+  105 & is & NZEng & helping verbs &  &  \\ 
+  106 & it & NZEng & pronouns &  &  \\ 
+  107 & jersey & NZEng & clothing &  &  \\ 
+  108 & later & NZEng & time\_words &  &  \\ 
+  109 & lawn\_mower & NZEng & outside\_things &  &  \\ 
+  110 & lemme\_let\_me & NZEng & helping verbs &  &  \\ 
+  111 & living\_room & NZEng & furniture\_rooms &  &  \\ 
+  112 & lollies & NZEng & food\_drink &  &  \\ 
+  113 & lollipop & NZEng & food\_drink &  &  \\ 
+  114 & mailman & NZEng & people &  &  \\ 
+  115 & me & NZEng & pronouns &  &  \\ 
+  116 & melon & NZEng & food\_drink &  &  \\ 
+  117 & mine & NZEng & pronouns &  &  \\ 
+  118 & moose & NZEng & animals &  &  \\ 
+  119 & more & NZEng & quantifiers\_articles &  &  \\ 
+  120 & morning & NZEng & time\_words &  &  \\ 
+  121 & movie & NZEng & places\_to\_go &  &  \\ 
+  122 & much & NZEng & quantifiers\_articles &  &  \\ 
+  123 & my & NZEng & pronouns &  &  \\ 
+  124 & myself & NZEng & pronouns &  &  \\ 
+  125 & nail & NZEng & household\_items &  &  \\ 
+  126 & need\_need\_to & NZEng & helping verbs &  &  \\ 
+  127 & next\_to & NZEng & prepositions\_locations &  &  \\ 
+  128 & night & NZEng & time\_words &  &  \\ 
+  129 & nightnight & NZEng & games\_routines &  &  \\ 
+  130 & no & NZEng & games\_routines &  &  \\ 
+  131 & none & NZEng & quantifiers\_articles &  &  \\ 
+  132 & not & NZEng & quantifiers\_articles &  &  \\ 
+  133 & now & NZEng & time\_words &  &  \\ 
+  134 & of & NZEng & prepositions\_locations &  &  \\ 
+  135 & off & NZEng & prepositions\_locations &  &  \\ 
+  136 & on & NZEng & prepositions\_locations &  &  \\ 
+  137 & on\_top\_of & NZEng & prepositions\_locations &  &  \\ 
+  138 & other & NZEng & quantifiers\_articles &  &  \\ 
+  139 & our & NZEng & pronouns &  &  \\ 
+  140 & out & NZEng & prepositions\_locations &  &  \\ 
+  141 & oven & NZEng & furniture\_rooms &  &  \\ 
+  142 & over & NZEng & prepositions\_locations &  &  \\ 
+  143 & paper & NZEng & household\_items &  &  \\ 
+  144 & pattycake & NZEng & games\_routines &  &  \\ 
+  145 & peanut\_butter & NZEng & food\_drink &  &  \\ 
+  146 & pencil & NZEng & toys &  &  \\ 
+  147 & penis & NZEng & body\_parts &  &  \\ 
+  148 & pet\_name & NZEng & people &  &  \\ 
+  149 & petrol\_station & NZEng & places\_to\_go &  &  \\ 
+  150 & playdough & NZEng & toys &  &  \\ 
+  151 & playpen & NZEng & furniture\_rooms &  &  \\ 
+  152 & police & NZEng & people &  &  \\ 
+  153 & porch & NZEng & furniture\_rooms &  &  \\ 
+  154 & potato\_chip & NZEng & food\_drink &  &  \\ 
+  155 & present & NZEng & toys &  &  \\ 
+  156 & pretzel & NZEng & food\_drink &  &  \\ 
+  157 & purse & NZEng & household\_items &  &  \\ 
+  158 & pushchair & NZEng & vehicles &  &  \\ 
+  159 & pyjamas & NZEng & clothing &  &  \\ 
+  160 & quack\_quack & NZEng & sound\_effects &  &  \\ 
+  161 & rocking\_chair & NZEng & furniture\_rooms &  &  \\ 
+  162 & rooster & NZEng & animals &  &  \\ 
+  163 & rubbish & NZEng & household\_items &  &  \\ 
+  164 & same & NZEng & quantifiers\_articles &  &  \\ 
+  165 & sauce & NZEng & food\_drink &  &  \\ 
+  166 & scarf & NZEng & clothing &  &  \\ 
+  167 & school & NZEng & places\_to\_go &  &  \\ 
+  168 & serviette & NZEng & household\_items &  &  \\ 
+  169 & she & NZEng & pronouns &  &  \\ 
+  170 & shh\_shush\_hush & NZEng & games\_routines &  &  \\ 
+  171 & shoe & NZEng & clothing &  &  \\ 
+  172 & skate & NZEng & action\_words &  &  \\ 
+  173 & sled & NZEng & vehicles &  &  \\ 
+  174 & slipper & NZEng & clothing &  &  \\ 
+  175 & sneaker & NZEng & clothing &  &  \\ 
+  176 & snow & NZEng & outside\_things &  &  \\ 
+  177 & snowman & NZEng & outside\_things &  &  \\ 
+  178 & snowsuit & NZEng & clothing &  &  \\ 
+  179 & so & NZEng & connecting\_words &  &  \\ 
+  180 & sock & NZEng & clothing &  &  \\ 
+  181 & sofa & NZEng & furniture\_rooms &  &  \\ 
+  182 & some & NZEng & quantifiers\_articles &  &  \\ 
+  183 & sore & NZEng & body\_parts &  &  \\ 
+  184 & spade & NZEng & outside\_things &  &  \\ 
+  185 & stove & NZEng & furniture\_rooms &  &  \\ 
+  186 & teddybear & NZEng & animals &  &  \\ 
+  187 & telephone & NZEng & household\_items &  &  \\ 
+  188 & thank\_you & NZEng & games\_routines &  &  \\ 
+  189 & that & NZEng & pronouns &  &  \\ 
+  190 & the & NZEng & quantifiers\_articles &  &  \\ 
+  191 & their & NZEng & pronouns &  &  \\ 
+  192 & them & NZEng & pronouns &  &  \\ 
+  193 & then & NZEng & connecting\_words &  &  \\ 
+  194 & there & NZEng & prepositions\_locations &  &  \\ 
+  195 & these & NZEng & pronouns &  &  \\ 
+  196 & they & NZEng & pronouns &  &  \\ 
+  197 & this & NZEng & pronouns &  &  \\ 
+  198 & this\_little\_piggy & NZEng & games\_routines &  &  \\ 
+  199 & those & NZEng & pronouns &  &  \\ 
+  200 & tights & NZEng & clothing &  &  \\ 
+  201 & time & NZEng & time\_words &  &  \\ 
+  202 & tin & NZEng & household\_items &  &  \\ 
+  203 & to & NZEng & prepositions\_locations &  &  \\ 
+  204 & today & NZEng & time\_words &  &  \\ 
+  205 & toe & NZEng & body\_parts &  &  \\ 
+  206 & tomato\_sauce & NZEng & food\_drink &  &  \\ 
+  207 & tomorrow & NZEng & time\_words &  &  \\ 
+  208 & tonight & NZEng & time\_words &  &  \\ 
+  209 & too & NZEng & quantifiers\_articles &  &  \\ 
+  210 & tooth & NZEng & body\_parts &  &  \\ 
+  211 & tricycle & NZEng & vehicles &  &  \\ 
+  212 & trousers & NZEng & clothing &  &  \\ 
+  213 & try\_try\_to & NZEng & helping verbs &  &  \\ 
+  214 & tummy & NZEng & body\_parts &  &  \\ 
+  215 & turn\_around & NZEng & games\_routines &  &  \\ 
+  216 & uhoh & NZEng & sound\_effects &  &  \\ 
+  217 & under & NZEng & prepositions\_locations &  &  \\ 
+  218 & underpants & NZEng & clothing &  &  \\ 
+  219 & up & NZEng & prepositions\_locations &  &  \\ 
+  220 & us & NZEng & pronouns &  &  \\ 
+  221 & vacuum\_cleaner & NZEng & household\_items &  &  \\ 
+  222 & vagina & NZEng & body\_parts &  &  \\ 
+  223 & vroom & NZEng & sound\_effects &  &  \\ 
+  224 & walker & NZEng & household\_items &  &  \\ 
+  225 & wanna\_want\_to & NZEng & helping verbs &  &  \\ 
+  226 & was & NZEng & helping verbs &  &  \\ 
+  227 & washing\_machine & NZEng & furniture\_rooms &  &  \\ 
+  228 & we & NZEng & pronouns &  &  \\ 
+  229 & were & NZEng & helping verbs &  &  \\ 
+  230 & what & NZEng & question\_words &  &  \\ 
+  231 & when & NZEng & question\_words &  &  \\ 
+  232 & where & NZEng & question\_words &  &  \\ 
+  233 & which & NZEng & question\_words &  &  \\ 
+  234 & who & NZEng & question\_words &  &  \\ 
+  235 & why & NZEng & question\_words &  &  \\ 
+  236 & will & NZEng & helping verbs &  &  \\ 
+  237 & with & NZEng & prepositions\_locations &  &  \\ 
+  238 & wolf & NZEng & animals &  &  \\ 
+  239 & woof\_woof & NZEng & sound\_effects &  &  \\ 
+  240 & would & NZEng & helping verbs &  &  \\ 
+  241 & yesterday & NZEng & time\_words &  &  \\ 
+  242 & yogurt & NZEng & food\_drink &  &  \\ 
+  243 & you & NZEng & pronouns &  &  \\ 
+  244 & your & NZEng & pronouns &  &  \\ 
+  245 & yourself & NZEng & pronouns &  &  \\ 
+  246 & yum\_yum & NZEng & sound\_effects &  &  \\ 
+  247 & zip & NZEng & clothing &  &  \\ 
+   \bottomrule
+\end{longtable}
+
+\begin{longtable}{rllccl}
+\caption[]{Words (with section) occurring on both CDIs}\\
+\toprule
+ & Word & CDI & Section & CDI & Section \\ 
+\midrule
+\endhead
+1 & animal & NZEng & animals & AusEng & animals \\ 
+  2 & ankle & NZEng & body\_parts & AusEng & body\_parts \\ 
+  3 & ant & NZEng & animals & AusEng & animals \\ 
+  4 & apple & NZEng & food\_drink & AusEng & food\_drink \\ 
+  5 & arm & NZEng & body\_parts & AusEng & body\_parts \\ 
+  6 & asleep & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  7 & awake & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  8 & baby & NZEng & people & AusEng & people \\ 
+  9 & babysitter & NZEng & people & AusEng & people \\ 
+  10 & backyard & NZEng & outside\_things & AusEng & outside \\ 
+  11 & bad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  12 & ball & NZEng & toys & AusEng & toys \\ 
+  13 & balloon & NZEng & toys & AusEng & toys \\ 
+  14 & banana & NZEng & food\_drink & AusEng & food\_drink \\ 
+  15 & basket & NZEng & household\_items & AusEng & household \\ 
+  16 & bat & NZEng & toys & AusEng & toys \\ 
+  17 & bath & NZEng & furniture\_rooms & AusEng & games\_routines \\ 
+  18 & bath & NZEng & games\_routines & AusEng & games\_routines \\ 
+  19 & beach & NZEng & places\_to\_go & AusEng & places \\ 
+  20 & beans & NZEng & food\_drink & AusEng & food\_drink \\ 
+  21 & bear & NZEng & animals & AusEng & animals \\ 
+  22 & bed & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  23 & bedroom & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  24 & bee & NZEng & animals & AusEng & animals \\ 
+  25 & belt & NZEng & clothing & AusEng & clothing \\ 
+  26 & bench & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  27 & better & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  28 & bib & NZEng & clothing & AusEng & clothing \\ 
+  29 & big & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  30 & bird & NZEng & animals & AusEng & animals \\ 
+  31 & bite & NZEng & action\_words & AusEng & action\_words \\ 
+  32 & black & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  33 & blanket & NZEng & household\_items & AusEng & household \\ 
+  34 & blow & NZEng & action\_words & AusEng & action\_words \\ 
+  35 & blue & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  36 & boat & NZEng & vehicles & AusEng & vehicles \\ 
+  37 & book & NZEng & toys & AusEng & toys \\ 
+  38 & bottle & NZEng & household\_items & AusEng & household \\ 
+  39 & bowl & NZEng & household\_items & AusEng & household \\ 
+  40 & box & NZEng & household\_items & AusEng & household \\ 
+  41 & boy & NZEng & people & AusEng & people \\ 
+  42 & bread & NZEng & food\_drink & AusEng & food\_drink \\ 
+  43 & break & NZEng & action\_words & AusEng & action\_words \\ 
+  44 & breakfast & NZEng & games\_routines & AusEng & games\_routines \\ 
+  45 & bring & NZEng & action\_words & AusEng & action\_words \\ 
+  46 & broken & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  47 & broom & NZEng & household\_items & AusEng & household \\ 
+  48 & brother & NZEng & people & AusEng & people \\ 
+  49 & brown & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  50 & brush & NZEng & household\_items & AusEng & household \\ 
+  51 & bubbles & NZEng & toys & AusEng & toys \\ 
+  52 & bucket & NZEng & household\_items & AusEng & household \\ 
+  53 & build & NZEng & action\_words & AusEng & action\_words \\ 
+  54 & bump & NZEng & action\_words & AusEng & action\_words \\ 
+  55 & bus & NZEng & vehicles & AusEng & vehicles \\ 
+  56 & butter & NZEng & food\_drink & AusEng & food\_drink \\ 
+  57 & butterfly & NZEng & animals & AusEng & animals \\ 
+  58 & button & NZEng & clothing & AusEng & clothing \\ 
+  59 & buy & NZEng & action\_words & AusEng & action\_words \\ 
+  60 & cake & NZEng & food\_drink & AusEng & food\_drink \\ 
+  61 & camera & NZEng & household\_items & AusEng & household \\ 
+  62 & can & NZEng & helping verbs & AusEng & household \\ 
+  63 & car & NZEng & vehicles & AusEng & vehicles \\ 
+  64 & careful & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  65 & carry & NZEng & action\_words & AusEng & action\_words \\ 
+  66 & catch & NZEng & action\_words & AusEng & action\_words \\ 
+  67 & cereal & NZEng & food\_drink & AusEng & food\_drink \\ 
+  68 & chair & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  69 & chase & NZEng & action\_words & AusEng & action\_words \\ 
+  70 & cheek & NZEng & body\_parts & AusEng & body\_parts \\ 
+  71 & cheese & NZEng & food\_drink & AusEng & food\_drink \\ 
+  72 & chicken & NZEng & animals & AusEng & food\_drink \\ 
+  73 & chicken & NZEng & food\_drink & AusEng & food\_drink \\ 
+  74 & chin & NZEng & body\_parts & AusEng & body\_parts \\ 
+  75 & chocolate & NZEng & food\_drink & AusEng & food\_drink \\ 
+  76 & clap & NZEng & action\_words & AusEng & action\_words \\ 
+  77 & clean & NZEng & action\_words & AusEng & action\_words \\ 
+  78 & clean & NZEng & action\_words & AusEng & descriptive\_words \\ 
+  79 & clean & NZEng & descriptive\_words & AusEng & action\_words \\ 
+  80 & clean & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  81 & climb & NZEng & action\_words & AusEng & action\_words \\ 
+  82 & clock & NZEng & household\_items & AusEng & household \\ 
+  83 & close & NZEng & action\_words & AusEng & action\_words \\ 
+  84 & cloud & NZEng & outside\_things & AusEng & outside \\ 
+  85 & clown & NZEng & people & AusEng & people \\ 
+  86 & coat & NZEng & clothing & AusEng & clothing \\ 
+  87 & cockadoodledoo & NZEng & sound\_effects & AusEng & sounds \\ 
+  88 & coffee & NZEng & food\_drink & AusEng & food\_drink \\ 
+  89 & coke & NZEng & food\_drink & AusEng & food\_drink \\ 
+  90 & cold & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  91 & comb & NZEng & household\_items & AusEng & household \\ 
+  92 & cook & NZEng & action\_words & AusEng & action\_words \\ 
+  93 & corn & NZEng & food\_drink & AusEng & food\_drink \\ 
+  94 & cot & NZEng & furniture\_rooms & AusEng & household \\ 
+  95 & country & NZEng & places\_to\_go & AusEng & places \\ 
+  96 & cover & NZEng & action\_words & AusEng & action\_words \\ 
+  97 & cow & NZEng & animals & AusEng & animals \\ 
+  98 & cowboy & NZEng & people & AusEng & people \\ 
+  99 & crayon & NZEng & toys & AusEng & toys \\ 
+  100 & cry & NZEng & action\_words & AusEng & action\_words \\ 
+  101 & cup & NZEng & household\_items & AusEng & household \\ 
+  102 & cut & NZEng & action\_words & AusEng & action\_words \\ 
+  103 & cute & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  104 & daddy & NZEng & people & AusEng & people \\ 
+  105 & dance & NZEng & action\_words & AusEng & action\_words \\ 
+  106 & dark & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  107 & deer & NZEng & animals & AusEng & animals \\ 
+  108 & dirty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  109 & dish & NZEng & household\_items & AusEng & household \\ 
+  110 & doctor & NZEng & people & AusEng & people \\ 
+  111 & dog & NZEng & animals & AusEng & animals \\ 
+  112 & doll & NZEng & toys & AusEng & toys \\ 
+  113 & donkey & NZEng & animals & AusEng & animals \\ 
+  114 & door & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  115 & doughnut & NZEng & food\_drink & AusEng & food\_drink \\ 
+  116 & draw & NZEng & action\_words & AusEng & action\_words \\ 
+  117 & drawer & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  118 & dress & NZEng & clothing & AusEng & clothing \\ 
+  119 & drink & NZEng & food\_drink & AusEng & food\_drink \\ 
+  120 & drink & NZEng & food\_drink & AusEng & action\_words \\ 
+  121 & drink & NZEng & action\_words & AusEng & food\_drink \\ 
+  122 & drink & NZEng & action\_words & AusEng & action\_words \\ 
+  123 & drive & NZEng & action\_words & AusEng & action\_words \\ 
+  124 & drop & NZEng & action\_words & AusEng & action\_words \\ 
+  125 & dry & NZEng & action\_words & AusEng & action\_words \\ 
+  126 & dry & NZEng & action\_words & AusEng & descriptive\_words \\ 
+  127 & dry & NZEng & descriptive\_words & AusEng & action\_words \\ 
+  128 & dry & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  129 & duck & NZEng & animals & AusEng & animals \\ 
+  130 & dump & NZEng & action\_words & AusEng & action\_words \\ 
+  131 & ear & NZEng & body\_parts & AusEng & body\_parts \\ 
+  132 & eat & NZEng & action\_words & AusEng & action\_words \\ 
+  133 & egg & NZEng & food\_drink & AusEng & food\_drink \\ 
+  134 & elephant & NZEng & animals & AusEng & animals \\ 
+  135 & empty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  136 & eye & NZEng & body\_parts & AusEng & body\_parts \\ 
+  137 & face & NZEng & body\_parts & AusEng & body\_parts \\ 
+  138 & fall & NZEng & action\_words & AusEng & action\_words \\ 
+  139 & farm & NZEng & places\_to\_go & AusEng & places \\ 
+  140 & fast & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  141 & feed & NZEng & action\_words & AusEng & action\_words \\ 
+  142 & find & NZEng & action\_words & AusEng & action\_words \\ 
+  143 & fine & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  144 & finish & NZEng & action\_words & AusEng & action\_words \\ 
+  145 & fireman & NZEng & people & AusEng & people \\ 
+  146 & first & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  147 & fish & NZEng & animals & AusEng & animals \\ 
+  148 & fish & NZEng & animals & AusEng & food\_drink \\ 
+  149 & fish & NZEng & food\_drink & AusEng & animals \\ 
+  150 & fish & NZEng & food\_drink & AusEng & food\_drink \\ 
+  151 & fit & NZEng & action\_words & AusEng & action\_words \\ 
+  152 & fix & NZEng & action\_words & AusEng & action\_words \\ 
+  153 & flag & NZEng & outside\_things & AusEng & outside \\ 
+  154 & flower & NZEng & outside\_things & AusEng & outside \\ 
+  155 & food & NZEng & food\_drink & AusEng & food\_drink \\ 
+  156 & footpath & NZEng & outside\_things & AusEng & outside \\ 
+  157 & fork & NZEng & household\_items & AusEng & household \\ 
+  158 & fridge & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  159 & friend & NZEng & people & AusEng & people \\ 
+  160 & frog & NZEng & animals & AusEng & animals \\ 
+  161 & full & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  162 & game & NZEng & toys & AusEng & toys \\ 
+  163 & garage & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  164 & garden & NZEng & outside\_things & AusEng & outside \\ 
+  165 & gentle & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  166 & get & NZEng & action\_words & AusEng & action\_words \\ 
+  167 & giraffe & NZEng & animals & AusEng & animals \\ 
+  168 & girl & NZEng & people & AusEng & people \\ 
+  169 & give & NZEng & action\_words & AusEng & action\_words \\ 
+  170 & glass & NZEng & household\_items & AusEng & household \\ 
+  171 & glue & NZEng & toys & AusEng & toys \\ 
+  172 & go & NZEng & action\_words & AusEng & action\_words \\ 
+  173 & good & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  174 & goose & NZEng & animals & AusEng & animals \\ 
+  175 & grapes & NZEng & food\_drink & AusEng & food\_drink \\ 
+  176 & grass & NZEng & outside\_things & AusEng & outside \\ 
+  177 & green & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  178 & grr & NZEng & sound\_effects & AusEng & sounds \\ 
+  179 & hair & NZEng & body\_parts & AusEng & body\_parts \\ 
+  180 & hamburger & NZEng & food\_drink & AusEng & food\_drink \\ 
+  181 & hammer & NZEng & household\_items & AusEng & household \\ 
+  182 & hand & NZEng & body\_parts & AusEng & body\_parts \\ 
+  183 & happy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  184 & hard & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  185 & hat & NZEng & clothing & AusEng & clothing \\ 
+  186 & hate & NZEng & action\_words & AusEng & action\_words \\ 
+  187 & have & NZEng & action\_words & AusEng & action\_words \\ 
+  188 & head & NZEng & body\_parts & AusEng & body\_parts \\ 
+  189 & hear & NZEng & action\_words & AusEng & action\_words \\ 
+  190 & heavy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  191 & helicopter & NZEng & vehicles & AusEng & vehicles \\ 
+  192 & hello & NZEng & games\_routines & AusEng & games\_routines \\ 
+  193 & help & NZEng & action\_words & AusEng & action\_words \\ 
+  194 & hi & NZEng & games\_routines & AusEng & games\_routines \\ 
+  195 & hide & NZEng & action\_words & AusEng & action\_words \\ 
+  196 & high & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  197 & hit & NZEng & action\_words & AusEng & action\_words \\ 
+  198 & hold & NZEng & action\_words & AusEng & action\_words \\ 
+  199 & horse & NZEng & animals & AusEng & animals \\ 
+  200 & hose & NZEng & outside\_things & AusEng & outside \\ 
+  201 & hot & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  202 & hug & NZEng & action\_words & AusEng & action\_words \\ 
+  203 & hungry & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  204 & hurry & NZEng & action\_words & AusEng & action\_words \\ 
+  205 & hurt & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  206 & ice & NZEng & food\_drink & AusEng & food\_drink \\ 
+  207 & jacket & NZEng & clothing & AusEng & clothing \\ 
+  208 & jam & NZEng & food\_drink & AusEng & food\_drink \\ 
+  209 & jar & NZEng & household\_items & AusEng & household \\ 
+  210 & jeans & NZEng & clothing & AusEng & clothing \\ 
+  211 & jelly & NZEng & food\_drink & AusEng & food\_drink \\ 
+  212 & juice & NZEng & food\_drink & AusEng & food\_drink \\ 
+  213 & jump & NZEng & action\_words & AusEng & action\_words \\ 
+  214 & keys & NZEng & household\_items & AusEng & household \\ 
+  215 & kick & NZEng & action\_words & AusEng & action\_words \\ 
+  216 & kiss & NZEng & action\_words & AusEng & action\_words \\ 
+  217 & kitchen & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  218 & knee & NZEng & body\_parts & AusEng & body\_parts \\ 
+  219 & knife & NZEng & household\_items & AusEng & household \\ 
+  220 & knock & NZEng & action\_words & AusEng & action\_words \\ 
+  221 & ladder & NZEng & outside\_things & AusEng & outside \\ 
+  222 & lady & NZEng & people & AusEng & people \\ 
+  223 & lamb & NZEng & animals & AusEng & animals \\ 
+  224 & lamp & NZEng & household\_items & AusEng & household \\ 
+  225 & last & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  226 & leg & NZEng & body\_parts & AusEng & body\_parts \\ 
+  227 & lick & NZEng & action\_words & AusEng & action\_words \\ 
+  228 & light & NZEng & household\_items & AusEng & household \\ 
+  229 & like & NZEng & action\_words & AusEng & action\_words \\ 
+  230 & lion & NZEng & animals & AusEng & animals \\ 
+  231 & lips & NZEng & body\_parts & AusEng & body\_parts \\ 
+  232 & listen & NZEng & action\_words & AusEng & action\_words \\ 
+  233 & little & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  234 & long & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  235 & look & NZEng & action\_words & AusEng & action\_words \\ 
+  236 & loud & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  237 & love & NZEng & action\_words & AusEng & action\_words \\ 
+  238 & lunch & NZEng & games\_routines & AusEng & games\_routines \\ 
+  239 & mad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  240 & make & NZEng & action\_words & AusEng & action\_words \\ 
+  241 & man & NZEng & people & AusEng & people \\ 
+  242 & meat & NZEng & food\_drink & AusEng & food\_drink \\ 
+  243 & medicine & NZEng & household\_items & AusEng & household \\ 
+  244 & meow & NZEng & sound\_effects & AusEng & sounds \\ 
+  245 & milk & NZEng & food\_drink & AusEng & food\_drink \\ 
+  246 & money & NZEng & household\_items & AusEng & household \\ 
+  247 & monkey & NZEng & animals & AusEng & animals \\ 
+  248 & moo & NZEng & sound\_effects & AusEng & sounds \\ 
+  249 & moon & NZEng & outside\_things & AusEng & outside \\ 
+  250 & mop & NZEng & household\_items & AusEng & household \\ 
+  251 & motorbike & NZEng & vehicles & AusEng & vehicles \\ 
+  252 & mouse & NZEng & animals & AusEng & animals \\ 
+  253 & mouth & NZEng & body\_parts & AusEng & body\_parts \\ 
+  254 & muffin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  255 & mummy & NZEng & people & AusEng & people \\ 
+  256 & nap & NZEng & games\_routines & AusEng & games\_routines \\ 
+  257 & nappy & NZEng & clothing & AusEng & clothing \\ 
+  258 & naughty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  259 & necklace & NZEng & clothing & AusEng & clothing \\ 
+  260 & new & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  261 & nice & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  262 & noisy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  263 & noodles & NZEng & food\_drink & AusEng & food\_drink \\ 
+  264 & nose & NZEng & body\_parts & AusEng & body\_parts \\ 
+  265 & nurse & NZEng & people & AusEng & people \\ 
+  266 & nuts & NZEng & food\_drink & AusEng & food\_drink \\ 
+  267 & old & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  268 & open & NZEng & action\_words & AusEng & action\_words \\ 
+  269 & orange & NZEng & food\_drink & AusEng & food\_drink \\ 
+  270 & orange & NZEng & food\_drink & AusEng & descriptive\_words \\ 
+  271 & orange & NZEng & descriptive\_words & AusEng & food\_drink \\ 
+  272 & orange & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  273 & ouch & NZEng & sound\_effects & AusEng & sounds \\ 
+  274 & outside & NZEng & places\_to\_go & AusEng & places \\ 
+  275 & owl & NZEng & animals & AusEng & animals \\ 
+  276 & paint & NZEng & action\_words & AusEng & action\_words \\ 
+  277 & pancake & NZEng & food\_drink & AusEng & food\_drink \\ 
+  278 & park & NZEng & places\_to\_go & AusEng & places \\ 
+  279 & party & NZEng & places\_to\_go & AusEng & places \\ 
+  280 & peas & NZEng & food\_drink & AusEng & food\_drink \\ 
+  281 & peekaboo & NZEng & games\_routines & AusEng & games\_routines \\ 
+  282 & pen & NZEng & toys & AusEng & toys \\ 
+  283 & penguin & NZEng & animals & AusEng & animals \\ 
+  284 & people & NZEng & people & AusEng & people \\ 
+  285 & person & NZEng & people & AusEng & people \\ 
+  286 & pick & NZEng & action\_words & AusEng & action\_words \\ 
+  287 & picnic & NZEng & places\_to\_go & AusEng & places \\ 
+  288 & picture & NZEng & household\_items & AusEng & household \\ 
+  289 & pig & NZEng & animals & AusEng & animals \\ 
+  290 & pillow & NZEng & household\_items & AusEng & household \\ 
+  291 & pizza & NZEng & food\_drink & AusEng & food\_drink \\ 
+  292 & plant & NZEng & household\_items & AusEng & household \\ 
+  293 & plate & NZEng & household\_items & AusEng & household \\ 
+  294 & play & NZEng & action\_words & AusEng & action\_words \\ 
+  295 & playground & NZEng & places\_to\_go & AusEng & places \\ 
+  296 & please & NZEng & games\_routines & AusEng & games\_routines \\ 
+  297 & pony & NZEng & animals & AusEng & animals \\ 
+  298 & pool & NZEng & outside\_things & AusEng & outside \\ 
+  299 & poor & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  300 & popcorn & NZEng & food\_drink & AusEng & food\_drink \\ 
+  301 & possum & NZEng & animals & AusEng & animals \\ 
+  302 & potato & NZEng & food\_drink & AusEng & food\_drink \\ 
+  303 & potty & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  304 & pour & NZEng & action\_words & AusEng & action\_words \\ 
+  305 & pretend & NZEng & action\_words & AusEng & action\_words \\ 
+  306 & pretty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  307 & pudding & NZEng & food\_drink & AusEng & food\_drink \\ 
+  308 & pull & NZEng & action\_words & AusEng & action\_words \\ 
+  309 & pumpkin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  310 & puppy & NZEng & animals & AusEng & animals \\ 
+  311 & push & NZEng & action\_words & AusEng & action\_words \\ 
+  312 & put & NZEng & action\_words & AusEng & action\_words \\ 
+  313 & puzzle & NZEng & toys & AusEng & toys \\ 
+  314 & quiet & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  315 & radio & NZEng & household\_items & AusEng & household \\ 
+  316 & rain & NZEng & outside\_things & AusEng & outside \\ 
+  317 & raisin & NZEng & food\_drink & AusEng & food\_drink \\ 
+  318 & read & NZEng & action\_words & AusEng & action\_words \\ 
+  319 & red & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  320 & ride & NZEng & action\_words & AusEng & action\_words \\ 
+  321 & rip & NZEng & action\_words & AusEng & action\_words \\ 
+  322 & rock & NZEng & outside\_things & AusEng & outside \\ 
+  323 & roof & NZEng & outside\_things & AusEng & outside \\ 
+  324 & room & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  325 & run & NZEng & action\_words & AusEng & action\_words \\ 
+  326 & sad & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  327 & salt & NZEng & food\_drink & AusEng & food\_drink \\ 
+  328 & sandpit & NZEng & outside\_things & AusEng & outside \\ 
+  329 & sandwich & NZEng & food\_drink & AusEng & food\_drink \\ 
+  330 & say & NZEng & action\_words & AusEng & action\_words \\ 
+  331 & scared & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  332 & scissors & NZEng & household\_items & AusEng & household \\ 
+  333 & see & NZEng & action\_words & AusEng & action\_words \\ 
+  334 & shake & NZEng & action\_words & AusEng & action\_words \\ 
+  335 & share & NZEng & action\_words & AusEng & action\_words \\ 
+  336 & sheep & NZEng & animals & AusEng & animals \\ 
+  337 & shirt & NZEng & clothing & AusEng & clothing \\ 
+  338 & shop & NZEng & places\_to\_go & AusEng & places \\ 
+  339 & shopping & NZEng & games\_routines & AusEng & games\_routines \\ 
+  340 & shorts & NZEng & clothing & AusEng & clothing \\ 
+  341 & shoulder & NZEng & body\_parts & AusEng & body\_parts \\ 
+  342 & show & NZEng & action\_words & AusEng & places \\ 
+  343 & show & NZEng & action\_words & AusEng & action\_words \\ 
+  344 & shower & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  345 & sick & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  346 & sing & NZEng & action\_words & AusEng & action\_words \\ 
+  347 & sink & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  348 & sister & NZEng & people & AusEng & people \\ 
+  349 & sit & NZEng & action\_words & AusEng & action\_words \\ 
+  350 & sky & NZEng & outside\_things & AusEng & outside \\ 
+  351 & sleep & NZEng & action\_words & AusEng & action\_words \\ 
+  352 & sleepy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  353 & slide & NZEng & outside\_things & AusEng & outside \\ 
+  354 & slide & NZEng & outside\_things & AusEng & action\_words \\ 
+  355 & slide & NZEng & action\_words & AusEng & outside \\ 
+  356 & slide & NZEng & action\_words & AusEng & action\_words \\ 
+  357 & slow & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  358 & smile & NZEng & action\_words & AusEng & action\_words \\ 
+  359 & snack & NZEng & games\_routines & AusEng & games\_routines \\ 
+  360 & soap & NZEng & household\_items & AusEng & household \\ 
+  361 & soft & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  362 & soup & NZEng & food\_drink & AusEng & food\_drink \\ 
+  363 & spaghetti & NZEng & food\_drink & AusEng & food\_drink \\ 
+  364 & spill & NZEng & action\_words & AusEng & action\_words \\ 
+  365 & splash & NZEng & action\_words & AusEng & action\_words \\ 
+  366 & spoon & NZEng & household\_items & AusEng & household \\ 
+  367 & sprinkler & NZEng & outside\_things & AusEng & outside \\ 
+  368 & stairs & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  369 & stand & NZEng & action\_words & AusEng & action\_words \\ 
+  370 & star & NZEng & outside\_things & AusEng & outside \\ 
+  371 & stay & NZEng & action\_words & AusEng & action\_words \\ 
+  372 & stick & NZEng & outside\_things & AusEng & outside \\ 
+  373 & sticky & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  374 & stone & NZEng & outside\_things & AusEng & outside \\ 
+  375 & stop & NZEng & action\_words & AusEng & action\_words \\ 
+  376 & story & NZEng & toys & AusEng & toys \\ 
+  377 & strawberry & NZEng & food\_drink & AusEng & food\_drink \\ 
+  378 & street & NZEng & outside\_things & AusEng & outside \\ 
+  379 & stuck & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  380 & sun & NZEng & outside\_things & AusEng & outside \\ 
+  381 & sweep & NZEng & action\_words & AusEng & action\_words \\ 
+  382 & swim & NZEng & action\_words & AusEng & action\_words \\ 
+  383 & swing & NZEng & outside\_things & AusEng & outside \\ 
+  384 & swing & NZEng & outside\_things & AusEng & action\_words \\ 
+  385 & swing & NZEng & action\_words & AusEng & outside \\ 
+  386 & swing & NZEng & action\_words & AusEng & action\_words \\ 
+  387 & table & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  388 & take & NZEng & action\_words & AusEng & action\_words \\ 
+  389 & talk & NZEng & action\_words & AusEng & action\_words \\ 
+  390 & tape & NZEng & household\_items & AusEng & household \\ 
+  391 & taste & NZEng & action\_words & AusEng & action\_words \\ 
+  392 & teacher & NZEng & people & AusEng & people \\ 
+  393 & tear & NZEng & action\_words & AusEng & action\_words \\ 
+  394 & think & NZEng & action\_words & AusEng & action\_words \\ 
+  395 & thirsty & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  396 & throw & NZEng & action\_words & AusEng & action\_words \\ 
+  397 & tickle & NZEng & action\_words & AusEng & action\_words \\ 
+  398 & tiger & NZEng & animals & AusEng & animals \\ 
+  399 & tiny & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  400 & tired & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  401 & tissue & NZEng & household\_items & AusEng & household \\ 
+  402 & toast & NZEng & food\_drink & AusEng & food\_drink \\ 
+  403 & tongue & NZEng & body\_parts & AusEng & body\_parts \\ 
+  404 & toothbrush & NZEng & household\_items & AusEng & household \\ 
+  405 & touch & NZEng & action\_words & AusEng & action\_words \\ 
+  406 & towel & NZEng & household\_items & AusEng & household \\ 
+  407 & toy & NZEng & toys & AusEng & toys \\ 
+  408 & tractor & NZEng & vehicles & AusEng & vehicles \\ 
+  409 & train & NZEng & vehicles & AusEng & vehicles \\ 
+  410 & tray & NZEng & household\_items & AusEng & household \\ 
+  411 & tree & NZEng & outside\_things & AusEng & outside \\ 
+  412 & truck & NZEng & vehicles & AusEng & vehicles \\ 
+  413 & tuna & NZEng & food\_drink & AusEng & food\_drink \\ 
+  414 & turkey & NZEng & animals & AusEng & animals \\ 
+  415 & turtle & NZEng & animals & AusEng & animals \\ 
+  416 & tv & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  417 & uncle & NZEng & people & AusEng & people \\ 
+  418 & vanilla & NZEng & food\_drink & AusEng & food\_drink \\ 
+  419 & vitamins & NZEng & food\_drink & AusEng & food\_drink \\ 
+  420 & wait & NZEng & action\_words & AusEng & games\_routines \\ 
+  421 & wake & NZEng & action\_words & AusEng & action\_words \\ 
+  422 & walk & NZEng & action\_words & AusEng & action\_words \\ 
+  423 & wardrobe & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  424 & wash & NZEng & action\_words & AusEng & action\_words \\ 
+  425 & watch & NZEng & household\_items & AusEng & household \\ 
+  426 & watch & NZEng & household\_items & AusEng & action\_words \\ 
+  427 & watch & NZEng & action\_words & AusEng & household \\ 
+  428 & watch & NZEng & action\_words & AusEng & action\_words \\ 
+  429 & water & NZEng & food\_drink & AusEng & food\_drink \\ 
+  430 & water & NZEng & food\_drink & AusEng & outside \\ 
+  431 & water & NZEng & outside\_things & AusEng & food\_drink \\ 
+  432 & water & NZEng & outside\_things & AusEng & outside \\ 
+  433 & wet & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  434 & white & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  435 & wind & NZEng & outside\_things & AusEng & outside \\ 
+  436 & window & NZEng & furniture\_rooms & AusEng & furniture\_rooms \\ 
+  437 & windy & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  438 & wipe & NZEng & action\_words & AusEng & action\_words \\ 
+  439 & wish & NZEng & action\_words & AusEng & action\_words \\ 
+  440 & work & NZEng & places\_to\_go & AusEng & places \\ 
+  441 & work & NZEng & places\_to\_go & AusEng & action\_words \\ 
+  442 & work & NZEng & action\_words & AusEng & places \\ 
+  443 & work & NZEng & action\_words & AusEng & action\_words \\ 
+  444 & write & NZEng & action\_words & AusEng & action\_words \\ 
+  445 & yard & NZEng & places\_to\_go & AusEng & places \\ 
+  446 & yellow & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  447 & yes & NZEng & games\_routines & AusEng & games\_routines \\ 
+  448 & yucky & NZEng & descriptive\_words & AusEng & descriptive\_words \\ 
+  449 & zebra & NZEng & animals & AusEng & animals \\ 
+  450 & zoo & NZEng & places\_to\_go & AusEng & places \\ 
    \bottomrule
 \end{longtable}
 

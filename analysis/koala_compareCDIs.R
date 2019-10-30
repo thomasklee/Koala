@@ -3,7 +3,7 @@
 # KidsWords and OZI vocabularies compared
 # Thomas Klee
 # Created: 2019-10-28
-# Revised: 2019-10-29
+# Revised: 2019-10-30
 # ---------------------------
 
 # This script combines data from two sources
@@ -37,10 +37,10 @@ KidsWords_items <- rename(KidsWords_items, item = CDI_item)
 
 # select variables to compare
 OZI_items <- OZI_items %>% 
-  select(dialect, item, CDI_part)
+  select(item, dialect, CDI_part)
 KidsWords_items <- KidsWords_items %>%
   filter(field <= 22) %>% 
-  select(dialect, item, CDI_part)
+  select(item, dialect, CDI_part)
 
 # merge data frames and alphabetise word item list
 all_items <- full_join(KidsWords_items, OZI_items, by = "item")
