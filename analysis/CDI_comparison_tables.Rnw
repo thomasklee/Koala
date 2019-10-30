@@ -1,0 +1,174 @@
+\documentclass[10pt,a4paper]{article}
+% \documentclass[jou,natbib]{apa6}
+% \usepackage{fullpage}
+\usepackage[latin1]{inputenc}
+\usepackage{booktabs}
+%\usepackage[toc, page]{appendix}
+
+\usepackage{graphicx}
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{ctable} % for command-driven tables
+
+% load {hyperref} before {apacite}, but after {biblatex} if using that 
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = black]{hyperref} 
+\usepackage[natbibapa]{apacite}
+% \usepackage[backend=bibtex]{biblatex} % alternative to {natbib}? doesn't require \bibliographystyle?
+% \usepackage[sort]{natbib} % [sort]: no need to manually order citations
+
+\usepackage{longtable} % allows tables to span pages
+\usepackage{dcolumn} % aligns column numbers on the decimal point
+\usepackage[blocks]{authblk} % for listing multiple authors, institutions
+
+\usepackage{lineno}
+
+\title{Koala Project: Vocabulary checklist comparisons}
+
+\author{Thomas Klee}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\linenumbers
+
+
+\begin{longtable}{rclccl}
+  \toprule
+ & KidsWords & item & KidsWords & OZI & OZI \\ 
+  \midrule
+1 &  & (air)plane &  & AusEng & vehicles \\ 
+  2 &  & (pussy)cat &  & AusEng & animals \\ 
+  3 &  & (tomato) sauce &  & AusEng & food\_drink \\ 
+  4 &  & all gone &  & AusEng & descriptive\_words \\ 
+  5 &  & aunt &  & AusEng & people \\ 
+  6 &  & baa baa &  & AusEng & sounds \\ 
+  7 &  & barbecue &  & AusEng & places \\ 
+  8 &  & bath (tub) &  & AusEng & furniture\_rooms \\ 
+  9 &  & bathroom &  & AusEng & furniture\_rooms \\ 
+  10 &  & beanie &  & AusEng & clothing \\ 
+  11 &  & bellybutton/navel &  & AusEng & body\_parts \\ 
+  12 &  & bicycle/bike &  & AusEng & vehicles \\ 
+  13 &  & bin &  & AusEng & household \\ 
+  14 &  & biscuit/bickie &  & AusEng & food\_drink \\ 
+  15 &  & block/brick &  & AusEng & toys \\ 
+  16 &  & boot(s) &  & AusEng & clothing \\ 
+  17 &  & bottom &  & AusEng & body\_parts \\ 
+  18 &  & breasts &  & AusEng & body\_parts \\ 
+  19 &  & bug &  & AusEng & animals \\ 
+  20 &  & bunny/rabbit &  & AusEng & animals \\ 
+  21 &  & bush &  & AusEng & places \\ 
+  22 &  & call &  & AusEng & action\_words \\ 
+  23 &  & call(phone) &  & AusEng & games\_routines \\ 
+  24 &  & carrot &  & AusEng & food\_drink \\ 
+  25 &  & chewing gum/chewie &  & AusEng & food\_drink \\ 
+  26 &  & child's own name &  & AusEng & people \\ 
+  27 &  & child/kid &  & AusEng & people \\ 
+  28 &  & choo choo &  & AusEng & sounds \\ 
+  29 &  & church/mosque &  & AusEng & places \\ 
+  30 &  & city &  & AusEng & places \\ 
+  31 &  & cockroach &  & AusEng & animals \\ 
+  32 &  & computer &  & AusEng & furniture\_rooms \\ 
+  33 &  & cordial &  & AusEng & food\_drink \\ 
+  34 &  & couch/lounge/sofa &  & AusEng & furniture\_rooms \\ 
+  35 &  & crib &  & AusEng & furniture\_rooms \\ 
+  36 &  & crocodile &  & AusEng & animals \\ 
+  37 &  & cuddle &  & AusEng & action\_words \\ 
+  38 &  & custard &  & AusEng & food\_drink \\ 
+  39 &  & dinner &  & AusEng & games\_routines \\ 
+  40 &  & easy &  & AusEng & descriptive\_words \\ 
+  41 &  & finger(s) &  & AusEng & body\_parts \\ 
+  42 &  & fire truck/engine &  & AusEng & vehicles \\ 
+  43 &  & foot/feet &  & AusEng & body\_parts \\ 
+  44 &  & friend's name &  & AusEng & people \\ 
+  45 &  & garbage/rubbish &  & AusEng & household \\ 
+  46 &  & give me five! &  & AusEng & games\_routines \\ 
+  47 &  & go potty &  & AusEng & games\_routines \\ 
+  48 &  & goodbye/bye bye &  & AusEng & games\_routines \\ 
+  49 &  & grandma/nanna &  & AusEng & people \\ 
+  50 &  & grandpa/pop &  & AusEng & people \\ 
+  51 &  & hide and seek/hidie &  & AusEng & games\_routines \\ 
+  52 &  & high chair &  & AusEng & furniture\_rooms \\ 
+  53 &  & home/house &  & AusEng & places \\ 
+  54 &  & ice cream &  & AusEng & food\_drink \\ 
+  55 &  & jumper &  & AusEng & clothing \\ 
+  56 &  & kangaroo/roo &  & AusEng & animals \\ 
+  57 &  & know &  & AusEng & action\_words \\ 
+  58 &  & koala &  & AusEng & animals \\ 
+  59 &  & lawn mower &  & AusEng & outside \\ 
+  60 &  & living/lounge room &  & AusEng & furniture\_rooms \\ 
+  61 &  & lolly &  & AusEng & food\_drink \\ 
+  62 &  & mango &  & AusEng & food\_drink \\ 
+  63 &  & movies &  & AusEng & places \\ 
+  64 &  & mug &  & AusEng & household \\ 
+  65 &  & nail(s) &  & AusEng & body\_parts \\ 
+  66 &  & nasty &  & AusEng & descriptive\_words \\ 
+  67 &  & neck &  & AusEng & body\_parts \\ 
+  68 &  & newspaper/paper &  & AusEng & household \\ 
+  69 &  & night night &  & AusEng & games\_routines \\ 
+  70 &  & no/don't &  & AusEng & games\_routines \\ 
+  71 &  & oven/stove &  & AusEng & furniture\_rooms \\ 
+  72 &  & pants &  & AusEng & clothing \\ 
+  73 &  & pasta &  & AusEng & food\_drink \\ 
+  74 &  & patty cake/pat-a-cake &  & AusEng & games\_routines \\ 
+  75 &  & peanut butter &  & AusEng & food\_drink \\ 
+  76 &  & pet's name &  & AusEng & people \\ 
+  77 &  & petrol station &  & AusEng & places \\ 
+  78 &  & photo &  & AusEng & household \\ 
+  79 &  & pineapple &  & AusEng & food\_drink \\ 
+  80 &  & play dough &  & AusEng & toys \\ 
+  81 &  & play pen &  & AusEng & furniture\_rooms \\ 
+  82 &  & police(man) &  & AusEng & people \\ 
+  83 &  & postman &  & AusEng & people \\ 
+  84 &  & potato chip/crisps &  & AusEng & food\_drink \\ 
+  85 &  & pram &  & AusEng & vehicles \\ 
+  86 &  & present/pressie &  & AusEng & toys \\ 
+  87 &  & purse/wallet &  & AusEng & household \\ 
+  88 &  & pyjamas/jamies &  & AusEng & clothing \\ 
+  89 &  & quack quack &  & AusEng & sounds \\ 
+  90 &  & rocking chair &  & AusEng & furniture\_rooms \\ 
+  91 &  & school/kindie/preschool &  & AusEng & places \\ 
+  92 &  & scratch &  & AusEng & action\_words \\ 
+  93 &  & serviette/napkin &  & AusEng & household \\ 
+  94 &  & shed &  & AusEng & outside \\ 
+  95 &  & shh/shush/hush &  & AusEng & games\_routines \\ 
+  96 &  & shoe(s) &  & AusEng & clothing \\ 
+  97 &  & shovel &  & AusEng & outside \\ 
+  98 &  & shut &  & AusEng & action\_words \\ 
+  99 &  & slipper(s) &  & AusEng & clothing \\ 
+  100 &  & smell &  & AusEng & action\_words \\ 
+  101 &  & snake &  & AusEng & animals \\ 
+  102 &  & sock(s) &  & AusEng & clothing \\ 
+  103 &  & spider &  & AusEng & animals \\ 
+  104 &  & stomach/tummy &  & AusEng & body\_parts \\ 
+  105 &  & stroller &  & AusEng & vehicles \\ 
+  106 &  & sunglasses/sunnies &  & AusEng & clothing \\ 
+  107 &  & teddy bear &  & AusEng & toys \\ 
+  108 &  & telephone/phone &  & AusEng & household \\ 
+  109 &  & tell &  & AusEng & action\_words \\ 
+  110 &  & thank you &  & AusEng & games\_routines \\ 
+  111 &  & thongs &  & AusEng & clothing \\ 
+  112 &  & three wheeler/tricycle &  & AusEng & vehicles \\ 
+  113 &  & toe(s) &  & AusEng & body\_parts \\ 
+  114 &  & tooth/teeth &  & AusEng & body\_parts \\ 
+  115 &  & uh oh &  & AusEng & sounds \\ 
+  116 &  & underpants/undies &  & AusEng & clothing \\ 
+  117 &  & vacuum cleaner &  & AusEng & household \\ 
+  118 &  & vegemite &  & AusEng & food\_drink \\ 
+  119 &  & veranda/porch &  & AusEng & furniture\_rooms \\ 
+  120 &  & vroom/broom &  & AusEng & sounds \\ 
+  121 &  & wall &  & AusEng & outside \\ 
+  122 &  & want to &  & AusEng & games\_routines \\ 
+  123 &  & washing machine &  & AusEng & furniture\_rooms \\ 
+  124 &  & waves &  & AusEng & outside \\ 
+  125 &  & wombat &  & AusEng & animals \\ 
+  126 &  & woof woof &  & AusEng & sounds \\ 
+  127 &  & yoghurt &  & AusEng & food\_drink \\ 
+  128 &  & yum yum &  & AusEng & sounds \\ 
+  129 &  & yummy &  & AusEng & descriptive\_words \\ 
+  130 &  & zipper &  & AusEng & clothing \\ 
+   \bottomrule
+\end{longtable}
+
+\end{document}
